@@ -88,7 +88,7 @@ Visual Communication Design
 [ ] Server communication
 
 **13. One thing you hope to create by course end:**  
-There is lots that I'm excited to be creating in this class. The one thing that I hope to create by the end of this course is the portfolio piece and possibile a website or page.
+There is lots that I'm excited to be creating in this class. The one thing that I hope to create by the end of this course is the portfolio piece and possibly a website or page. I also want to try and learn how to make a webpage transform from Labtop to Phone/Tablet.
 
 ---
 *This intake will help me understand your background and tailor the course experience. Feel free to expand on any answers!*
