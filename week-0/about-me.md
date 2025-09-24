@@ -3,29 +3,29 @@
 ## Background & Skills
 
 **1. Major:**  
-[Your answer here]
+Visual Communication Design
 
 **2. Design courses completed:**  
-[ ] DESN 100  
-[ ] DESN 200  
-[ ] DESN 216  
-[ ] DESN 243  
-[ ] DESN 263  
-[ ] DESN 338  
+[x] DESN 100  
+[x] DESN 200  
+[x] DESN 216  
+[x] DESN 243  
+[x] DESN 263  
+[x] DESN 338  
 [ ] None  
-[ ] Other: _______________
+[x] Other: Typography2, Visual Story Telling, User Experience 2&3, VCD 2&3,and couple other ones I'm blanking on.
 
 **3. Web experience:**  
 [ ] Never coded  
 [ ] Viewed source  
-[ ] Modified HTML/CSS  
+[x] Modified HTML/CSS  
 [ ] Built websites  
 [ ] Professional work
 
 **4. AI tool experience:**  
 [ ] Never used  
 [ ] ChatGPT occasionally  
-[ ] Regular AI user  
+[x] Regular AI user  
 [ ] Coding with AI  
 [ ] Not sure what this means
 
@@ -34,29 +34,29 @@
 **5. When you see a website, you primarily notice:**  
 [ ] Visual design  
 [ ] How it functions  
-[ ] Both equally  
+[x] Both equally  
 [ ] Other: _______________
 
 **6. Rate your comfort level (1-5 scale, 5 = very comfortable):**  
-- Sketching ideas: ___  
-- Problem-solving: ___  
-- Design software: ___  
-- Giving/receiving feedback: ___
+- Sketching ideas: 5  
+- Problem-solving: 4  
+- Design software: 4 
+- Giving/receiving feedback: 3
 
 **7. Learning preference:**  
 [ ] Jump in and build  
 [ ] Step-by-step tutorials  
 [ ] Read first, then practice  
 [ ] Learn from mistakes  
-[ ] Other: _______________
+[X] Other: I'm honestly a mix of all these options. 
 
 ## Course Alignment
 
 **8. Main goal:**  
 [ ] Pass class  
-[ ] Build portfolio  
-[ ] Understand web development  
-[ ] Career prep  
+[x] Build portfolio  
+[x] Understand web development  
+[x] Career prep  
 [ ] Personal interest
 
 **9. Biggest concern:**  
@@ -69,7 +69,7 @@
 **10. Most excited about:**  
 [ ] Making things work  
 [ ] Visual design  
-[ ] Combining design + code  
+[x] Combining design + code  
 [ ] AI collaboration  
 [ ] Not sure yet
 
@@ -77,18 +77,18 @@
 
 **11. HTML is primarily for:**  
 [ ] Visual styling and layout  
-[ ] Content structure and meaning  
+[x] Content structure and meaning  
 [ ] Interactive functionality  
 [ ] Database connections
 
 **12. CSS is primarily for:**  
 [ ] Content structure  
-[ ] Visual styling and layout  
+[x] Visual styling and layout  
 [ ] Programming logic  
 [ ] Server communication
 
 **13. One thing you hope to create by course end:**  
-[Your answer here]
+There is lots that I'm excited to be creating in this class. The one thing that I hope to create by the end of this course is the portfolio piece and possibile a website or page.
 
 ---
 *This intake will help me understand your background and tailor the course experience. Feel free to expand on any answers!*
