@@ -42,7 +42,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 *Update these links as you complete each tool setup:*
 https://github.com/mbushyeager05
 - **GitHub:** https://github.com/mbushyeager05
-- **Workspace (Forked Repo):** https://github.com/mbushyeager05/DESN368-code-design-workspace-MB/tree/main 
+- **Workspace (Forked Repo):**https://github.com/mbushyeager05/DESN368-code-design-workspace-MB 
 - **Figma:** https://www.figma.com/files/team/1357766809068079689/recents-and-sharing?fuid=1357766806536424080
 - **CodePen:** https://codepen.io/Michael-Bushyeager05
 - **GitHub Student Pack:** [Confirm approval status here] ⏳  
@@ -50,10 +50,9 @@ https://github.com/mbushyeager05
 ### **How to Update Your Toolkit:**
 1. **Click the pencil icon** (✏️) at the top right of this README  
 2. Replace the placeholder text with your actual profile information:  
-   - https://github.com/mbushyeager05/DESN368-code-design-workspace-MB/tree/main  
+   - https://github.com/mbushyeager05
    - Change `[Add your Figma username here]` → your Figma username  
-   - Change `[Add your CodePen profile URL here]` → `https://codepen.io/YourUsername`  
-   - Change `[Add your LiveCode profile here]` → your LiveCode link  
+   - Change `[Add your CodePen profile URL here]` → `https://codepen.io/YourUsername`   
    - Change `[Confirm approval status here]` → `Approved` or `Pending` for GitHub Pack  
 3. Scroll to bottom and click **"Commit changes"**  
 4. Repeat this process each time you complete a new tool setup  
