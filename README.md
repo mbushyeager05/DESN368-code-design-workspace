@@ -50,7 +50,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 ### **How to Update Your Toolkit:**
 1. **Click the pencil icon** (✏️) at the top right of this README  
 2. Replace the placeholder text with your actual profile information:  
-   - Change `[Add your forked repo link here]` → `https://github.com/YourUsername/DESN368-code-design-workspace`  
+   - Change https://github.com/mbushyeager05/DESN368-code-design-workspace-MB/tree/main  
    - Change `[Add your Figma username here]` → your Figma username  
    - Change `[Add your CodePen profile URL here]` → `https://codepen.io/YourUsername`  
    - Change `[Add your LiveCode profile here]` → your LiveCode link  
