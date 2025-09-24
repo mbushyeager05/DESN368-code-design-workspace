@@ -57,7 +57,7 @@ Visual Communication Design
 - [x] Build portfolio  
 - [x] Understand web development  
 - [x] Career prep  
-[ ] Personal interest
+- [x] Personal interest
 
 **9. Biggest concern:**  
 [ ] Keeping up  
