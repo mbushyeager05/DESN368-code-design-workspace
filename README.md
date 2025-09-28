@@ -45,7 +45,7 @@ https://github.com/mbushyeager05
 - **Workspace (Forked Repo):**https://github.com/mbushyeager05/DESN368-code-design-workspace-MB 
 - **Figma:** https://www.figma.com/files/team/1357766809068079689/recents-and-sharing?fuid=1357766806536424080
 - **CodePen:** https://codepen.io/Michael-Bushyeager05
-- **GitHub Student Pack:** [Confirm approval status here] ⏳  
+- **GitHub Student Pack:** Pending
 
 ### **How to Update Your Toolkit:**
 1. **Click the pencil icon** (✏️) at the top right of this README  
@@ -53,7 +53,7 @@ https://github.com/mbushyeager05
    - https://github.com/mbushyeager05
    - @michaelbushyeag
    - https://codepen.io/Michael-Bushyeager05   
-   - Change `[Confirm approval status here]` → `Approved` or `Pending` for GitHub Pack  
+   - Pending
 3. Scroll to bottom and click **"Commit changes"**  
 4. Repeat this process each time you complete a new tool setup  
 
