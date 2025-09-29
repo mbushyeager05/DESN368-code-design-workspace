@@ -4,10 +4,10 @@
 - [x] 🐙 GitHub Account  
 - [x] 🗂️ Workspace Setup (fork repo + README update)  
 - [x] 🎨 Figma Education Account & Team Access  
-- [ ] 💻 CodePen Account & Profile  
-- [ ] ⚡ LiveCode Profile  
-- [ ] 🎁 GitHub Student Developer Pack  
-- [ ] 🔄 Complete Setup Verification  
+- [x] 💻 CodePen Account & Profile  
+- [x] ⚡ LiveCode Profile  
+- [x] 🎁 GitHub Student Developer Pack  
+- [x] 🔄 Complete Setup Verification  
 
 ---
 
