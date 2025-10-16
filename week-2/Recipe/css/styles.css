@@ -10,7 +10,6 @@ body {
  box-sizing: border-box;
  background-color: #FFF8E7;
  
-}
 
 img {
   width: 100%;
@@ -37,4 +36,11 @@ ul, ol, li, p {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
+}
+
+/* Descendant selector: bold all list items inside .ingredientspage */
+.ingredientspage ul li,
+.ingredientspage ol li {
+  font-weight: bold;
+}
 }
