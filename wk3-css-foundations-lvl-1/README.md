@@ -29,12 +29,12 @@ These exercises are from [The Odin Project](https://www.theodinproject.com/) and
    - If your solution differs from TOP's solution (and still passes the requirements), that is completely fine. There are always multiple approaches.
   
 Submission
-intro-to-css/01-css-methods: https://codepen.io/Michael-Bushyeager05/pen/emJyabr
-intro-to-css/02-class-id-selectors: https://codepen.io/Michael-Bushyeager05/pen/yyepWWv
-intro-to-css/03-grouping-selectors: https://codepen.io/Michael-Bushyeager05/pen/MYKrdMG
-intro-to-css/04-chaining-selectors: https://codepen.io/Michael-Bushyeager05/pen/pvgpXza
-intro-to-css/05-descendant-combinator: https://codepen.io/Michael-Bushyeager05/pen/vELpqEN
-cascade/01-cascade-fix: https://codepen.io/Michael-Bushyeager05/pen/raxpExQ
+1. intro-to-css/01-css-methods: https://codepen.io/Michael-Bushyeager05/pen/emJyabr
+2. intro-to-css/02-class-id-selectors: https://codepen.io/Michael-Bushyeager05/pen/yyepWWv
+3. intro-to-css/03-grouping-selectors: https://codepen.io/Michael-Bushyeager05/pen/MYKrdMG
+4. intro-to-css/04-chaining-selectors: https://codepen.io/Michael-Bushyeager05/pen/pvgpXza
+5. intro-to-css/05-descendant-combinator: https://codepen.io/Michael-Bushyeager05/pen/vELpqEN
+6. cascade/01-cascade-fix: https://codepen.io/Michael-Bushyeager05/pen/raxpExQ
 
 ## Some Hints
 
