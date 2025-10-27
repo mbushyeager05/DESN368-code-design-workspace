@@ -5,6 +5,7 @@
 	<title>Tim Cook Tribute Page</title>
    <link rel="stylesheet" href="css/styles.css.tribute">
 </head>
+
 <body>
 <section class="mainpicture">
   <img id="timcook" src="https://snipboard.io/ZCHm74.jpg"/>
