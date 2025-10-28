@@ -132,7 +132,7 @@ In the week four (week-4) folder, you will find Dec Tools tutorial and a Tribute
 
 ## Resources
 
-- [Link to course materials]
+- https://mbushyeager05.github.io/DESN368-code-design-workspace/
 - https://snipboard.io
 - https://www.w3schools.com/css/css3_flexbox.asp
 - https://claude.ai/new
