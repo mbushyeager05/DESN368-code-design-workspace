@@ -148,12 +148,25 @@ h4 {
   margin-top: 120px;
 }
 
+.accent-line-green {
+  height: 320px;
+  width: 10px;
+  background-color: #5FC411;
+  margin: 10px auto;
+  margin-top: 20px;
+  margin-left: 400px;
+  position:absolute
+}
+
+
 .accent-line-yellow {
   height: 10px;
-  width: 500px;
+  width: 700px;
   background-color: #FDBE0D;
   margin: 10px auto;
-  margin-top: 100px;
+  margin-top: 470px;
+  margin-left: 300px;
+  position: absolute;
 }
 
 .accent-line-orange {
@@ -184,10 +197,12 @@ h4 {
 
 .accent-line-blue {
   height: 10px;
-  width: 500px;
+  width: 600px;
   background-color: #026EC1;
   margin: 10px auto;
-  margin-top: 330px;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
   position: absolute;
 }
 
@@ -196,7 +211,7 @@ h4 {
   width: 400px;
   background-color: #5FC411;
   margin: 10px auto;
-  margin-top: 60px;
+  margin-top: 120px;
   margin-left: 0px;
 }
 
@@ -298,3 +313,48 @@ a {
   color: black;
   font-weight: 900;
 }
+
+
+figure {
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px 24px; 
+}
+
+figure img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  color: #444; 
+  text-align: center;
+  margin-top: 4px;
+  max-width: 320px; 
+  margin-left: 110px;
+  margin-right: auto;
+  font-family: "Lexend", sans-serif;
+}
+
+
+.product-grid figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Portrait{
+margin-top: -30px;
+margin-right: 120px;
+}
+
+.vanityfair {
+margin-left: 120px;
+}
+ 
