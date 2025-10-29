@@ -13,6 +13,18 @@ This repository documents my learning journey in Code + Design 1 (DESN368) durin
 
 ---
 
+**Projects**
+
+## Project 1: Tribute Page
+
+**Subject:** Tim Cook-Tribute Page
+
+**Links:**
+- [Figma Design] https://www.figma.com/design/WJpAHC5Z9uSkvoC11hd50b/Tibute-Site-Tim-Cook--MB?node-id=0-1&t=Myg1xqMdwNK7d4QG-1
+- [Live Page] https://mbushyeager05.github.io/DESN368-code-design-workspace/week-4/project-1-tribute.html
+
+---
+
 ## Week 0 - Introduction to WorksSpace and Hierarchy 
 
 **Topics Covered:**
