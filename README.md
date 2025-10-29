@@ -13,9 +13,9 @@ This repository documents my learning journey in Code + Design 1 (DESN368) durin
 
 ---
 
-**Projects**
+## Projects
 
-## Project 1: Tribute Page
+ **Project 1: Tribute Page**
 
 **Subject:** Tim Cook-Tribute Page
 
