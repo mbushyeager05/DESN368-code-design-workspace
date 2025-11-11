@@ -309,9 +309,118 @@ footer, .footer-link{
 }
 
 
+/* Hide checkbox */
+.mobile-header {
+  display: none;
+  background: #004A78;  /* Already has this */
+  padding: 1rem 1.5rem;
+  position: sticky;  /* Makes it stick when scrolling */
+  top: 0;  /* Sticks to top */
+  z-index: 999;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);  /* Optional: adds shadow */
+}
 
+/* Give hamburger a background box */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  width: 30px;
+  background: rgba(255, 255, 255, 0.1);  /* Light background */
+  padding: 0.75rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
 
+.hamburger:hover {
+  background: rgba(255, 255, 255, 0.2);  /* Lighter on hover */
+}
 
+.hamburger span {
+  width: 100%;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
 
-
+/* MOBILE STYLES - Must be at the bottom! */
+@media (max-width: 768px) {
+  /* Show mobile header - STICKY */
+  .mobile-header {
+    display: block;
+    background: #004A78;
+    padding: 1rem 1.5rem;
+    position: sticky;  /* Stays at top when scrolling */
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  }
   
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    width: 35px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 0.75rem;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  .hamburger:hover {
+    background: rgba(255, 255, 255, 0.25);
+  }
+  
+  /* Center main content on mobile */
+  .main-content {
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 100%;
+  }
+  
+  /* Hide sidebar off-screen by default */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+  }
+  
+  /* Show close button (X) on mobile */
+  .close-btn {
+    display: block;
+    position: absolute;
+    right: 1.5rem;
+    top: 2rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+    line-height: 1;
+  }
+  
+  /* When checkbox is checked, slide sidebar in */
+  .sidebar-toggle:checked ~ .sidebar-nav .sidebar {
+    transform: translateX(0);
+  }
+  
+  /* Dark overlay behind sidebar when open */
+  .sidebar-toggle:checked ~ .sidebar-nav .sidebar::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 280px;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: -1;
+  }
+}
