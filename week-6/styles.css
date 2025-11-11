@@ -9,6 +9,14 @@ html {
   background: #F0F9FF;
 }
 
+
+/* html {
+  overflow-x: hidden;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+} */
+
 /* Hide the checkbox */
 .sidebar-toggle {
   display: none;
@@ -38,6 +46,7 @@ flex: 1;
   line-height: normal;
   justify-content: center; 
   align-items: flex-start;
+  overflow-x: hidden;
 }
 
 .sidebar {
@@ -431,7 +440,8 @@ code, pre code {
     margin: 0 auto;
     padding: 1rem;
     max-width: 100%;
-    margin-right: 10px;
+    margin-right: auto;
+    overflow-x: hidden;
   }
   
   /* Hide sidebar off-screen by default */
