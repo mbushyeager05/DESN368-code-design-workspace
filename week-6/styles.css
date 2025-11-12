@@ -267,7 +267,7 @@ max-width: auto;
   display: flex;
 }
 
-.button-2  {
+.button-2 p {
   display: flex;
   border: 3px solid #0891B2;
   max-width: fit-content;
@@ -384,6 +384,66 @@ code, pre code {
   right: 10%;
 }
 
+#deco-2 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  aspect-ratio: 1/1;
+  opacity: 0.3;
+ margin-top: -200px;
+  right: 10%;
+}
+
+#deco-3 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  aspect-ratio: 1/1;
+  opacity: 0.3;
+ margin-top: -500px;
+  right: 10%;
+}
+
+#deco-4 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  aspect-ratio: 1/1;
+  opacity: 0.3;
+ margin-top: -200px;
+  right: 20%;
+}
+
+#deco-5 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  aspect-ratio: 1/1;
+  opacity: 0.3;
+ margin-top: -900px;
+  right: 10%;
+}
+
+#deco-6 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  aspect-ratio: 1/1;
+  opacity: 0.3;
+ margin-top: -900px;
+  right: 10%;
+}
+
+#deco-7 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  aspect-ratio: 1/1;
+  opacity: 0.3;
+ margin-top: -500px;
+  right: 20%;
+}
+
 
 
 /* MOBILE STYLES - Must be at the bottom! */
@@ -493,6 +553,10 @@ code, pre code {
     bottom: 0;
     background: rgba(0,0,0,0.5);
     z-index: -1;
+  }
+
+  #deco-1, #deco-2, #deco-3, #deco-4, #deco-5, #deco-6, #deco-7 {
+    display: none;
   }
   
 }
