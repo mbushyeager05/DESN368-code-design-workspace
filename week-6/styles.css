@@ -545,7 +545,7 @@ code, pre code {
     display: block;
     position: absolute;
     right: 1.5rem;
-    top: 2rem;
+    top: 1rem;
     font-size: 2.5rem;
     cursor: pointer;
     color: var(--color-text-light);
