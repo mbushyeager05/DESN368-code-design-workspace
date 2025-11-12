@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Paytone+One&display=swap');
 
+:root {
+  --color-primary-blue: #004A78;
+  --color-primary-cyan: #0891B2;
+  --color-bright-cyan: #22D3EE;
+  --color-accent-yellow: #F59E0B;
+  --color-accent-green: #10B981;
+  --color-bg-light: #F0F9FF;
+  --color-text-primary: #374151;
+  --color-text-light: #F0F9FF;
+  --color-border-cyan: #0891B2;
+  --color-border-dark: #004A78;
+   --font-primary: 'Outfit', sans-serif;
+  --font-heading: 'Paytone One', sans-serif;
+}
+
 /* CRITICAL - Prevent overflow */
 * {
   box-sizing: border-box;
@@ -17,7 +32,7 @@ html {
 }
 
 body {
-  background: #F0F9FF;
+  background: var(--color-bg-light);
   margin: 0;
   padding: 0;
 }
@@ -47,12 +62,12 @@ body {
 h1 {
   text-align: center;
   margin-top: -100px;
-  font-family: "Paytone One";
+  font-family: var(--font-heading);
   font-size: 4rem;
-  background: #004A78;
+  background: var(--color-primary-blue);
   border-radius: 15px;
   margin: 2rem auto;
-  color: #F0F9FF;
+  color: var(--color-text-light);
   max-width: fit-content;
   padding-left: 20px;
   padding-right: 20px;
@@ -67,8 +82,8 @@ h1 {
   padding: 2rem;
   padding-bottom: 0;
   min-height: 100vh;
-  color: #374151;
-  font-family: Outfit;
+  color: var(--color-text-primary);
+  font-family: var(--font-primary);
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -86,19 +101,19 @@ p {
 }
 
 h2 {
-  color: #0891B2;
-  font-family: "Paytone One";
+  color: var(--color-primary-cyan);
+  font-family: var(--font-heading);
   font-size: 2rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  border-left: 5px solid #004A78;
+  border-left: 5px solid var(--color-primary-blue);
   padding-left: 10px;
 }
 
 /* Links */
 a {
-  color: #F0F9FF;
+  color: var(--color-text-light);
   text-decoration: none;
 }
 
@@ -132,11 +147,11 @@ a {
 .button-1 p,
 #buttons p {
   display: flex;
-  border: 3px solid #0891B2;
+  border: 3px solid var(--color-border-cyan);
   max-width: fit-content;
-  color: #F0F9FF;
-  background: #004A78;
-  font-family: "Paytone One";
+  color: var(--color-text-light);
+  background: var(--color-primary-blue);
+  font-family: var(--font-heading);
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -150,32 +165,32 @@ a {
 .button-1:hover p,
 .button-1:focus p,
 #buttons p:hover {
-  background: #F0F9FF;
-  color: #0891B2;
-  border: 3px solid #0891B2;
+  background: var(--color-text-light);
+  color: var(--color-primary-cyan);
+  border: 3px solid var(--color-border-cyan);
   outline: none;
   cursor: pointer;
 }
 
 /* Footer */
 footer {
-  background: #004A78;
-  color: #F0F9FF;
+  background: var(--color-primary-blue);
+  color: var(--color-text-light);
   text-align: center;
   padding: 1.5rem 1rem;
   margin-top: 2rem;
 }
 
 footer .footer-link {
-  color: #F0F9FF;
+  color: var(--color-text-light);
   text-decoration: none;
   display: inline-block;
   margin-bottom: 0.5rem;
 }
 
 #section-footer {
-  background: #004A78;
-  color: #F0F9FF;
+  background: var(--color-primary-blue);
+  color: var(--color-text-light);
   text-align: center;
   padding: 2rem 1rem;
   margin-top: 0;
