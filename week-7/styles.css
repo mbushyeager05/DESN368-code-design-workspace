@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Outfit:wght@100..900&display=swap');
+
+/* Keep the page background full-bleed on the html element,
+   and center the readable content by constraining body width */
+html {
+  background: #2F2F2F;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto; /* center the body content */
+  padding: 1rem;  /* small page padding so content doesn't touch edges */
+  min-height: 100vh;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+/* Headings */
+h1 {
+  padding: 20px;
+  font-size: 2.5rem;
+  background: #CC2936;
+  color: #F4F4F6;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+/* Use Chango for page headings */
+h1, h2 {
+  font-family: "Chango", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #F4F4F6;
+  border-left: 4px solid #CC2936;
+  padding-left: 10px;
+  margin: 20;
+  padding: 20px;
+}
+
+/* Section heading accents */
+h3, h4 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3 {
+  border-left: 4px solid #CC2936;
+  padding-left: 10px;
+}
+
+/* Body copy */
+p, li {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5rem;
+}
+
+/* Section panels */
+#section-1, #section-2, #section-3, #section-4 {
+  border: 4px solid #F4F4F6;
+  border-radius: 10px;
+  background: #F4F4F6;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+a {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #CC2936;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+/* Blockquote */
+blockquote {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5rem;
+  color: #CC2936;
+  margin: 0 0 1rem 0;
+}
+
+cite {
+  color: #CC2936;
+  margin-left: 40px;
+}

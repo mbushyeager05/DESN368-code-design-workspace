@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Reset Research</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+<h1>What Really is CSS Reset</h1>
+  
+<h2>Historical Foundation</h2>
+<section id="section-1">
+
+<blockquote> "But there are all kinds of inconsistencies, some more subtle than others.  Headings have slightly different top and bottom margins, indentation distances are different, and so on.  Even something as basic as the default line height varies from one browser to another—which can have profound effects on element heights, vertical alignments, and overall feel."</blockquote>
+  <cite> -Eric A. and Kathryn S. Meyer.</cite>
+
+  <h3> The original problem CSS reset solved</h3>
+  <p> The basic reason is that all browser is all browser such as Safari, Chrome, and FireFox. Has defualts for each, but none of the browsers have the same defaults. Such as differnt headings, margins, and so on. This why so many people were looking for a solution. Many peopleusally put zero out on the ir padding and margin for a universal selctor for css. But unfortuanly that does not mean all elements will have their paddinga and magin zero.</p>
+  
+  <h3> What browsers inconsistancies bother developers enoight to create this?</h3>
+  <ul>
+    <li> Unpredictable margins and padding.</li>
+    <li> Form elemets with widly differnt apperances.</li>
+    <li> Internet Explorer's lack of support for values.</li>
+    <li>Inconsistant line heights.</li>
+    <li> 4px gap under images</li>
+  </ul>
+  <a href="https://meyerweb.com/eric/thoughts/2007/04/18/reset-reasoning/"> Eric Meyer's "Reset Reasoning" (2007)</a>
+  </section>
+<h2> Modern Evolution</h2> 
+<section id="section-2">
+  <blockquote> "For a long time, I used Eric Meyer's famous CSS Reset(opens in new tab). It's a solid chunk of CSS, but it's a bit long in the tooth at this point; it hasn't been updated in more than a decade, and a lot has changed since then!"</blockquote>
+  <cite> -Joshua Comeau</cite>
+  <h3>What changed between 2007 and now?</h3>
+  <p>These days, browsers don't have massive discrepancies when it comes to layout or spacing. By and large, browsers implement the CSS specification faithfully, and things behave as you'd expect. So it isn't as necessary anymore.</p>
+  <h3> Why does Josh modify or reject parts of Meyer's approch?</h3>
+  <p> Josh said it's not necessary to strip away all the browsers defulat. He said he probably wants and should use < em > tags to set font-styles: italic. You can always make differnt design decisions in individual project styles, but there is no paont in stripping away common sense defulats. The bottom line is Josh's reset is smarter, and is simpler. But it also acknowleges that browsers consistency has improved while addings solutions for modern CSS challanges that really didn't exist in the year 2007. It's less about earasing all the deulats but more fixing them.</p> 
+      <a href="https://www.joshwcomeau.com/css/custom-css-reset/">  Josh Comeau's "A Modern CSS Reset"</a>
+  </section>
+  <h2> Wider Landscape</h2>
+<section id="section-3">
+  <blockquote> "Using a well-crafted set of global CSS reset styles enables designers to make assumptions about the defualt behavior of browsers. These presentational assumptions greatly simplify the process of creating a “universally” consistent CSS design using only one set of CSS rules. Such process simplification results in great savings of time and money. Many of the industry’s top designers have been using CSS reset styles for years, reaping the rewards and sharing the results."</blockquote>
+  <cite> -Jeff Starr</cite>
+  <h3> The variety of approches (agressive resets vs. gentle normalization)</h3>
+  <p> Jeff Starr shows that Tthere's no single "correct" approach to CSS resets—instead, developers choose methods that align with their workflow, project requirements, and personal preferences. But there is a differnece is what developer approch when using CSS reset. There are really two differnt types of approches. Thise include agressive reset and gentle normalization. For "Agressive Reset" which really mean using a universal selectro such as <code> margin: 0; padding:0; </code> and Eric Meyers CSS reset which is completely reseting the whole CSS. While the philosophy: Start with a blank slate, build everything from scratch."Gentel Normalization" is where you perserve the normalize defaults and fix the inconcistencies. The Philosophy: Work with browser defaults, fix the broken parts.</p>
+  <h3>2-3 other reset/normalize approches</h3>
+<a href="https://www.semrush.com/blog/html-link-code"> Souce #1</a>
+    
+  <p> The author makes the case that preventing unexpected text inflation is exactly what CSS resets should handle — it's a subtle browser behavior that's easy to miss during testing but can negatively impact your design.</p>
+  <p> I find it interetsing that what this author/develper wanted you to do is just to add text-size-adjust to your CSS. Their CSS reset is super simple but not sure is affective.</p>
+  <a href="https://piccalil.li/blog/a-more-modern-css-reset/"> Souce #2</a>
+  <p> Andy Bell's "(more) Modern CSS Reset" provides an updated to his old CSS Reset, he approach to normalizing browser styles that balances modern best practices with accessibility. The reset includes essential fixes like preventing font size inflation on mobile devices, removing default margins using logical properties for better internationalization, and setting sensible typography defaults with generous line heights for body text and tighter spacing for headings</p>
+  <P> I feel like his CSS is vcery resonable and would use with in my own CSS. He appreciate that he said you should start creating your CSS Reset is by "take bits you like from ones you find on the web and create your own."</p>
+  <a href="https://elad.medium.com/normalize-css-or-css-reset-9d75175c5d1e/"> Souce #3</a>
+  <p> Elad Shechter's "Normalize CSS or CSS Reset?!" shows a hybrid approach to handling browser inconsistencies, arguing that developers shouldn't choose between Normalize CSS and Reset CSS but instead use both strategically. He characterizes Normalize as a "gentle solution" that preserves useful browser defaults while fixing inconsistencies, and Reset as an "aggressive solution" that completely wipes all styles but creates ugly selector chains and debugging nightmares.<p>
+  <P> I find this very intertsing to use a hybrid style using both "Agressive Reset" and "Normalize Reset." I belive it's a smart approch but I haven't seen many people/developers use this as an approch for their CSS Reset.</p>
+<a href="https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/#comments">    Jeff Starr's "Killer Collection of CSS Resets""</a>
+  </section>
+<h2>Critical Questions</h2>
+ <section id="section-4"> 
+   <h3>Why reset at all? (What problem does it solve?)</h3>
+   <p>Historically, the main goal of a CSS reset has been to ensure consistency between browsers, and to undo all default styles, creating a blank slate.</p>
+   <h3>Why Josh's version over Eric's? (Be specific about 2-3 differences</h3>
+   <p>There’s a lot of differences compared to Josh’s version and Eric’s version. Josh has developed one for the modern age and is much easier to use on browsers. There is a lot that Josh talk’s about compared to Eric.<p>
+<p>Eric removes all the default styling including the semantic meaning. While Josh keeps defaults. He only remove the inconstant stylizing from the css.
+Another, difference is box-sizing. I think this one is pretty import for css. Eric never mentions any box-sizing. While Josh uses box-sizing: border-box and everything. Which he says is a must have on modern CSS.</p>
+<p>The last example of why would should be looking at Josh’s version over Eric’s is Accessibility and Modern Features. Eric focus on the visual constancy and appearance. While Josh adds more to it. Such as line-height: 1.5, text-wrap: balance, and text-wrap: pretty. Which gives for better typography. He also applied code interpolate-size: allow-keywords; which allows for modern animations to happen.</p>
+   <h3>How do you actually use these? (Link tag? Import? Inline?)</h3
+     <p>Best Practice: Link tag at the top of your HTML</p>
+     <p> <link rel="stylesheet" href="reset.css"> <link </p> 
+       <p>rel="stylesheet" href="your-styles.css"> </p>
+    <p>CSS @import: @import url('reset.css'); at the top of your main stylesheet (less performant)</p>
+       <p>Inline at stylesheet top: Paste reset code at the beginning of your main CSS file.</p>
+       <h3>What's a CSS boilerplate? (vs. a reset)</h3>
+       <p>A CSS boilerplate  is the baseplate for the CSS. This includes the reset and normalized stylesheet. It also includes base typography. Such as fonts, wights, and size. This can also include things such as line height. Has the basic layout structure. Such as for grid or containers. The last thing that can be included in the CSS boilerplate is utility fixes and maybe common components.CSS reset is where either removes/normalize browser defaults.</p>
+       <h3>Why use a boilerplate? (When does it help/hurt?)</h3>
+       <p> There are pros and cons to using a bolder plate.<p>
+       <h4> The pro's</h4>
+       <ul> 
+         <li>For efficiency: Boilerplates speed up the creation of new projects and documents by providing a starting point.</li>
+<li>For consistency: Using a boilerplate ensures that standard information is presented consistently across multiple documents.</li>
+<li>For a foundational structure: It provides a basic, pre-built framework for projects.</li>
+<li>For clarity: In legal contracts, boilerplate clauses provide clarity on standard terms.</li>
+<li>For learning: It can be a great educational tool for junior developers to learn the structure of a technology or framework without starting from scratch. </li>
+       </ul>
+   <h4>The cons:</h4>
+       <ul>
+         <li>Over-engineering: You include CSS you'll never use, bloating file sizes.</li>
+         <li>Fighting the boilerplate: Spending time overriding opinionated defaults.</li>
+         <li>Learning hindrance: Beginners might not understand the code they're using.</li>
+         <li>Unique projects: Highly custom designs may not fit the boilerplate's assumptions.</li>
+       </ul>
+       <h3> CSS Reset Philosophy</h3>
+       <h4> "Burn it all down"</h4>
+       <P>What this means is really removes all browser defaults. Which creating a completely neutral baseline. Which than cuases you to define everything. Which then results in < h1 > to look identical to < p >.<p>
+         <h3>Normalize.css Philosophy</h3>
+         <h4> "Fix the broken parts"</h4>
+         <p> This wher you perserve the defualts or really the useful defualts. You usally only fix the inconsistencies. While also maintaining the semantic HTML styling. Which then results in < h1 > to look like a heading instead of < p >.</p>
+
+  </section>
+  
+  </body>
+
+  </html>
