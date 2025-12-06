@@ -16,9 +16,13 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   align-items: center; 
+  gap: 10px;
+  margin: 0 auto; 
+  max-width: 1400px;
 }
 
 .card {
+position: relative;
 border-radius: 10px;
 border: 1px solid #D9D9D9;
 background: rgba(255, 255, 255, 0.90);
@@ -26,9 +30,8 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 padding: 1rem;
 width: 286px;
 height: 433px;
-justify-content: center; /* Centers the grid tracks */
+justify-content: center; 
 align-items: center;
-margin: 0 auto;
 }
 
 .product-specs {
@@ -43,7 +46,8 @@ table {
 
 th,
 td {
-  border: 1px solid #ddd;
+  border-radius: 10px;
+  border: 5px solid #FFF;
   padding: 12px;
   text-align: center;
 }
@@ -91,7 +95,7 @@ nav a {
   color: #F8F9FA
 }
 
-#popular {
+#popular-background {
   background-color: #8B3FBF;
 }
 
@@ -108,7 +112,7 @@ nav a {
 
 #holiday h2 {
   margin-top: 0;
-  
+  padding-bottom: 100px;
 }
 
 
@@ -162,8 +166,25 @@ table {
 }
 
 .gift-wrap {
- display: block;
- position: absolute;
- margin-bottom: 540px;
- margin-left: 120px;
+  position: absolute;
+  top: -78px;  /* adjust to position where you want */
+  left: 78px; /* adjust to position where you want */
+  display: block;
+  z-index: 10;
+}
+
+.lego-insiders-image{
+  width: 400px;
+  height: auto;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+#lego-insiders {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+#popular-section-divider{
+  margin-bottom: -40px;
 }
