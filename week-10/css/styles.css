@@ -1,11 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Beau+Rivage&display=swap');
 
+:root {
+  --color-yellow: #FFC20E;
+  --color-gold: #FBBF24;
+  --color-gold-dark: #E5A714;
+  --color-gold-bright: #FDB915;
+  --color-teal: #6FCDCC;
+  --color-purple: #8B3FBF;
+  --color-blue: #0055BF;
+  --color-white: #FFFFFF;
+  --color-light-gray: #F8F9FA;
+  --color-gray: #D9D9D9;
+  --color-dark: #333333;
+  --color-dark-gray: #1A1A1A;
+  --color-black: #000000;
+  
+  --font-heading: 'Fredoka', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-script: 'Beau Rivage', cursive;
+}
+
 body {
   margin: 20px;
 }
 h1 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 12rem;
   text-align: center;
   padding: 4rem;
+  padding-bottom: 8rem;
+}
+
+h2 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: -6rem;
+  margin-bottom: 4rem;
+}
+
+#holiday h2 {
+  font-size: 5rem;
 }
 
 #holiday-header{
@@ -32,23 +69,34 @@ height: 280px;
 cursor: pointer;
 position: relative;
 border-radius: 10px;
-border: 1px solid #D9D9D9;
+border: 1px solid var(--color-gray);
 background: rgba(255, 255, 255, 0.90);
 padding: 1rem;
 justify-content: center; 
 align-items: center;
-
+position: relative;
 }
 
 .card {
   background: transparent;
-  border: 4px solid white;
+  border: 4px solid var(--color-white);
   border-radius: 16px;
   overflow: hidden;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   flex-direction: column;
   overflow: visible; 
+  position: relative;
+}
+
+#botanicals .card  {
+border: 4px solid #22C55E;
+}
+
+
+#botanicals .card:hover  {
+border: none;
+box-shadow: 0 4px 4px 0 #22C55E(0, 0, 0, 0.25), 0 4px 4px 0 #22C55E(0, 0, 0, 0.25);
 }
 
 
@@ -67,8 +115,8 @@ align-items: center;
   position: absolute;
   top: 16px;
   left: 16px;
-  background: #FDB915;
-  color: #333;
+  background: var(--color-gold-bright);
+  color: var(--color-dark);
   padding: 6px 18px;
   border-radius: 20px;
   font-weight: 600;
@@ -91,7 +139,7 @@ align-items: center;
 .card:hover {
   height: 450px;
   transform: translateY(-15px);
-  background: white;
+  background: var(--color-white);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -120,14 +168,14 @@ align-items: center;
 }
 
 .card:hover h4 {
-  background: #E5A714;
+  background: var(--color-gold-dark);
   width: fit-content;
 }
 
 .card .gift-wrap {
   position: absolute;
   top: -115px;
-  left: 130px;
+  left: 140px;
   transform: translateX(-50%);
   width: 200%;
   height: 200%;
@@ -157,13 +205,13 @@ table {
 th,
 td {
   border-radius: 10px;
-  border: 5px solid #FFF;
+  border: 5px solid var(--color-white);
   padding: 12px;
   text-align: center;
 }
 
 nav {
-  border: 4px solid #FFC20E;
+  border: 4px solid var(--color-yellow);
   padding: 0.5em;
   position: sticky;
   top: 0;
@@ -182,7 +230,7 @@ nav ul  {
 }
 
 nav a {
-  color: #000;
+  color: var(--color-black);
   text-decoration: none;
   padding: 0.5em 1em;
 }
@@ -197,16 +245,16 @@ nav a {
 
 .holiday-button {
   border-radius: 20px;
-  border: 3px solid #F8F9FA;
+  border: 3px solid var(--color-light-gray);
   padding: 1rem;
   padding-left: 4rem;
   padding-right: 4rem;
   margin-bottom: 4rem;
-  color: #F8F9FA
+  color: var(--color-light-gray)
 }
 
 #popular-background {
-  background-color: #8B3FBF;
+  background-color: var(--color-purple);
 }
 
 
@@ -231,13 +279,13 @@ nav a {
 }
 
 #holiday-background {
-background: #6FCDCC;
+background: var(--color-teal);
 padding-bottom: 250px;
 }
 
 
 #new-products {
-  background-color: #F8F9FA;
+  background-color: var(--color-light-gray);
 }
 
 table {
@@ -257,7 +305,7 @@ table {
 }
 
 .card h4 {
-  background-color: #FBBF24;
+  background-color: var(--color-gold);
   border-radius: 10px;
   padding: 0.75rem 2rem;
   width: fit-content; /* Shrinks to text size */
@@ -266,8 +314,8 @@ table {
 }
 
 .new-label {
-  background-color: #FBBF24;
-  color: #F8F9FA;
+  background-color: var(--color-gold);
+  color: var(--color-light-gray);
   border-radius: 7px;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -310,10 +358,11 @@ table {
   margin-bottom: -40px;
 }
 
-.lego-insiders-card { /* LEGO blue */
+.lego-insiders-card { 
   padding: 2rem;
   text-align: center;
   max-width: 400px;
+  margin: auto;
 }
 
 .insiders-buttons {
@@ -325,13 +374,13 @@ table {
 
 
 .insiders-login {
-  color: #333;
+  color: var(--color-dark);
   font-size: 0.9rem;
 }
 
 .btn-create {
-  background-color: #0055BF;
-  color: white;
+  background-color: var(--color-blue);
+  color: var(--color-white);
   border: none;
   padding: 12px 24px;
   border-radius: 15px;
@@ -339,9 +388,9 @@ table {
 }
 
 .btn-learn {
-  background-color: white;
-  color: #0055BF;
-  border: 2px solid #0055BF;
+  background-color: var(--color-white);
+  color: var(--color-blue);
+  border: 2px solid var(--color-blue);
   padding: 12px 24px;
   border-radius: 15px;
   cursor: pointer;
@@ -351,12 +400,14 @@ table {
 .lego-insiders-logo {
   width: 500px;
   height: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  margin-right: 20px;
+  display: block;
 }
 
 
 #trending-products {
-  background-color: #F8F9FA;
+  background-color: var(--color-light-gray);
   padding-bottom: 7rem;
 }
 
@@ -402,4 +453,25 @@ table {
 .grid-item:nth-child(5) {
   grid-column: 3 / 4;
   grid-row: 2 / 4;
+}
+
+#botanicals h2, p {
+  color: var(--color-light-gray)
+}
+
+#botanicals h2 {
+  font-size: 4rem;
+  margin-bottom: 120px;
+  text-align: left;
+  margin-left: 140px;
+}
+
+#botanicals p, button {
+  text-align: center;
+  align-items: center;
+}
+
+.botanicals-background {
+  background-color: var(--color-dark-gray);
+  padding-bottom: 15rem;
 }
