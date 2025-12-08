@@ -78,7 +78,7 @@
                 </div>
           <h3>Gingerbread AT-AT™ Walker</h3>
         <h5> $59.99</h5>
-        <h4>Add to Bag</h4>
+        <button class="add-to-bag">Add to Bag</button>
         <div class="card-grid">
           </article>
 
@@ -94,7 +94,7 @@
                 </div>
           <h3>Holiday Express Train</h3>
         <h5>$129.99</h5>
-        <h4>Add to Bag</h4>
+        <button class="add-to-bag">Add to Bag</button>
           </article>
                 
           <article class="card">
@@ -109,7 +109,7 @@
                 </div>
           <h3>Family Christmas Tree</h3>
         <h5>$329.99</h5>
-            <h4>Add to Bag</h4>    
+            <button class="add-to-bag">Add to Bag</button>    
           </article>
           <article class="card">
              <div class="new-label">
@@ -123,7 +123,7 @@
                 </div>
           <h3>Snowman Ornaments</h3>
         <h5> $12.99</h5>
-        <h4>Add to Bag</h4>
+        <button class="add-to-bag">Add to Bag</button>
           </article>
                   
       </div>
@@ -187,12 +187,12 @@ House (40809)</td>
         </section>
       
       
-       <img src="assets/images/what's-new.svg" class="section-dividers">
-      
 
       <section id="trending-products">
 
-
+<div class="trending-products-divider">
+       <img src="assets/images/what's-new.svg" class="section-dividers">
+      </div>
 
          <div class="image-grid">
           <h2 class="grid-item"> Explore What's Tending</h2>
@@ -221,7 +221,7 @@ House (40809)</td>
                 </div>
           <h3>Japanese Red Maple Bonsai Tree</h3>
         <h5> $59.99</h5>
-        <h4>Add to Bag</h4>
+        <button class="add-to-bag">Add to Bag</button>
         <div class="card-grid">
           </article>
             <article class="card">
@@ -234,7 +234,7 @@ House (40809)</td>
                 </div>
           <h3>Minifigure Vending Machine</h3>
         <h5>$179.99</h5>
-        <h4>Add to Bag</h4>
+        <button class="add-to-bag">Add to Bag</button>
           </article>
                 
           <article class="card">
@@ -247,7 +247,7 @@ House (40809)</td>
                 </div>
           <h3>Happy Plants</h3>
         <h5>$22.99</h5>
-        <h4>Add to Bag</h4>
+        <button class="add-to-bag">Add to Bag</button>
         <div class="card-grid">
           </article>
             
@@ -260,7 +260,7 @@ House (40809)</td>
                 </div>
           <h3>Festive Gingerbread House</h3>
         <h5>$39.99</h5>
-        <h4>Back Order</h4>
+        <button class="add-to-bag">Back Order</button>
         <div class="card-grid">
           </article>
                   
@@ -312,12 +312,14 @@ House (40809)</td>
                 </div>
           <h3>Japanese Red Maple Bonsai Tree</h3>
         <h5> $59.99</h5>
-        <h4>Add to Bag</h4>
+        <button class="add-to-bag">Add to Bag</button>
         <div class="card-grid">
           </article>
             
             <article class="card">
-              <h5>Multiple Builders<h5>
+               <div class="new-label"> <!-- Add this wrapper -->
+    <h3>Multiple Builders</h3>
+  </div>
                 <img src="assets/images/tiny-plants.webp" alt="Tiny Plants" class="product-image">
                 <div class="product-specs">
              <p>10+</p>
@@ -326,7 +328,7 @@ House (40809)</td>
                 </div>
           <h3>Tiny Plants</h3>
         <h5>$49.99</h5>
-        <h4>Add to Bag</h4>
+        <button class="add-to-bag">Add to Bag</button>
           </article>
                 
           <article class="card">
@@ -339,7 +341,7 @@ House (40809)</td>
                 </div>
           <h3>Happy Plants</h3>
         <h5>$22.99</h5>
-        <h4>Add to Bag</h4>
+        <button class="add-to-bag">Add to Bag</button>
         <div class="card-grid">
           </article>
             
@@ -352,7 +354,7 @@ House (40809)</td>
                 </div>
 <h3>Bouquet of Roses</h3>
         <h5>$59.99</h5>
-        <h4>Back Order</h4>
+        <button class="add-to-bag">Back Order</button>
         <div class="card-grid">
           </article>
                   
@@ -370,14 +372,16 @@ House (40809)</td>
         <img src="assets/images/wildflower-lego.webp" alt="Wildflower Lego" class="wildflower-image">
         </div>
       </section>
+
     <section id="insiders-two">
+      
       <img src="assets/images/lego-insider-two-divider.png" alt="lego-insider-divider" class="section-dividers">
+
 <div id="insiders-two-grid">
       <img src="assets/images/lego-insider-promotion.png" alt="Lego Insider Promotion" class="lego-insider-promotion">
 
       <form id="lego-insider-form">
-        <h2>Create Your LEGO® 
-        Insiders Account</h2>
+        <h2>Create Your LEGO® Insiders Account</h2>
   
   <div class="form-group">
     <label for="name">Your Name</label>
@@ -397,27 +401,29 @@ House (40809)</td>
       </div>
       </section>
       
-        <section id="learn-more">
-          <h2> Learn More</h2>
+       <section id="learn-more">
+  <h2>Learn More</h2>
 
-          <div class="card-grid">
-          <article class="card">
-            <h2>Gifting</h2>
-              <p>Shop ideas by occasion, age and price. Plus Gift Cards too!</p>
-          </article>
-              
-            <article class="card">
-            <h2>Latest News</h2>
-              <p>See our library of artciles for ideas and inspiration</p>
-          </article>
-                
-          <article class="card">
-           <h2>Custom Minifigures</h2>
-              <p>One-of-a-kind, just like them.</p>
-          </article>
-          </div>  
-          
-      </section>
+  <div class="learn-more-grid">
+    <article class="learn-card large-card">
+      <h2>Gifting</h2>
+      <p>Shop ideas by occasion, age and price. Plus Gift Cards too!</p>
+      <img src="assets/images/gifting-characters.png" alt="Gifting">
+    </article>
+      
+    <article class="learn-card">
+      <h2>Latest News</h2>
+      <img src="assets/images/news-character.png" alt="Latest News">
+      <p>See our library of articles for ideas and inspiration</p>
+    </article>
+        
+    <article class="learn-card">
+      <h2>Custom Minifigure</h2>
+      <img src="assets/images/custom-minifig.png" alt="Custom Minifigure">
+      <p>One-of-a-kind, just like them.</p>
+    </article>
+  </div>  
+</section>
       
   </main>
 
