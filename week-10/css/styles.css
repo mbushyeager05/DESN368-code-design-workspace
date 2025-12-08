@@ -638,20 +638,19 @@ iframe {
   margin-bottom: 1rem;
 }
 
-/* Make the section the positioning reference */
+
 #botanicals {
-  position: relative; /* CRITICAL: Creates positioning context */
+  position: relative; 
   min-height: 600px;
-  overflow: hidden; /* Cuts off overflow */
+  overflow: visible;
 }
 
 .botanicals-background {
   position: relative;
-  z-index: 2;
 }
 
 .mini-orchid-image {
-  position: absolute; /* Changed from fixed */
+  position: absolute;
   bottom: 5%;
   left: -130px;
   width: 680px;
@@ -687,7 +686,7 @@ iframe {
   object-fit: contain;
   object-position: bottom right;
   pointer-events: none;
-  z-index: 1; /* Behind content */
+  z-index: 1; 
  
 }
 
@@ -704,7 +703,7 @@ iframe {
   object-fit: contain;
   object-position: bottom right;
   pointer-events: none;
-  z-index: 1; /* Behind content */
+  z-index: 1; 
   animation: gentleFloat 18s ease-in-out infinite;
   transform: rotate(-70deg) scale(1.2);
 }
@@ -730,7 +729,7 @@ iframe {
   object-fit: contain;
   object-position: bottom right;
   pointer-events: none;
-  z-index: 1; /* Behind content */
+  z-index: 1; 
 }
 
 .wildflower-image {
@@ -742,7 +741,7 @@ iframe {
   object-fit: contain;
   object-position: bottom right;
   pointer-events: none;
-  z-index: 1; /* Behind content */
+  z-index: 1;
   transform: rotate(-70deg);
 }
 
@@ -757,14 +756,15 @@ iframe {
   filter: brightness(1.2) drop-shadow(0 0 20px #22C55E);
 }
 
-nsure body doesn't show overflow */
+
 body {
   overflow-x: hidden; /* Prevents horizontal scrollbar */
 }
 
-#insiders-two {
+#inside2rs-two-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  overflow: visible !important;
 }
 
 .lego-insider-promotion {
@@ -773,7 +773,7 @@ body {
   border-radius: 12px;
   margin: 4rem auto;
 }
-.form-group {
+.lego-insider-form{
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -783,4 +783,16 @@ body {
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
+}
+
+
+.lego-brick-flat {
+  display: inline-block;
+  position: relative;
+}
+
+
+#insiders-two .section-dividers {
+ margin-top: -8%;
+ overflow: visible !important;
 }
