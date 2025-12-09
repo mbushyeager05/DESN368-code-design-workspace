@@ -1182,6 +1182,22 @@ footer {
     background: #1F2937;
 }
 
+.icons-theme-turdor-corner,
+.icons-theme-krusty-burger,
+.icons-theme-fish-tank {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    position: absolute
+}
+
+.icons-theme-turdor-corner {
+    left: 20px;
+    width: 300px;
+    height: auto;
+}
+
+
 
 .theme-brick-ideas {
     background: #8B3FBF;
@@ -1244,8 +1260,9 @@ footer {
     text-align: center;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    min-height: 140px;
+    min-height: 210px;
     min-width: 200px;
+    overflow: hidden;
 }
 
 .brick-studs-icons,
@@ -1270,7 +1287,7 @@ footer {
 
 
 .brick-stud-themes {
-    width: 60px;
+    width: 90px;
     height: 25px;
     background: inherit;
     border-left: 2px solid rgba(0, 0, 0, 0.15);
@@ -1337,35 +1354,35 @@ footer {
 }
 
 
-.brick-studs-disney .brick-stud {
+.brick-studs-disney .brick-stud-themes  {
     background: #3B82F6;
 }
 
 
-.brick-studs-gaming .brick-stud {
+.brick-studs-gaming .brick-stud-themes {
     background: #10B981;
 }
 
-.brick-studs-city .brick-stud {
+.brick-studs-city .brick-stud-themes {
     background: #FBBF24;
 }
 
 
-.brick-studs-ninjago .brick-stud {
+.brick-studs-ninjago .brick-stud-themes {
     background: #DC2626;
 }
 
 
-.brick-studs-super-hero .brick-stud {
+.brick-studs-super-hero .brick-stud-themes {
     background: #2563EB;
 }
 
 
-.brick-studs-friends .brick-stud {
+.brick-studs-friends .brick-stud-themes {
     background: #EC4899;
 }
 
-.brick-studs-duplo .brick-stud {
+.brick-studs-duplo .brick-stud-themes {
     background: #22C55E;
 }
 
