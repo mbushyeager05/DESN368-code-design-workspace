@@ -1192,9 +1192,24 @@ footer {
 }
 
 .icons-theme-turdor-corner {
-    left: 20px;
-    width: 300px;
-    height: auto;
+    left: -80px;
+  width: 350px;
+  height: auto;
+  top: -10px;
+}
+
+.icons-theme-krusty-burger {
+  left: 180px;
+  width: 350px;
+  height: auto;
+  top: 0px;
+}
+
+.icons-theme-fish-tank {
+  left: 480px;
+  width: 350px;
+  height: auto;
+  top: 60px;
 }
 
 
@@ -1203,9 +1218,70 @@ footer {
     background: #8B3FBF;
 }
 
+.ideas-theme-starry-night-painting,
+.ideas-theme-luxo-disney,
+.ideas-theme-vendy-machine {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    position: absolute
+}
+
+.ideas-theme-starry-night-painting {
+  left: -40px;
+  width: 350px;
+  height: auto;
+  top: 20px;
+}
+
+.ideas-theme-luxo-disney {
+ left: 380px;
+  width: 250px;
+  height: auto;
+  top: 0px;
+}
+
+.ideas-theme-vendy-machine {
+  left: 480px;
+  width: 280px;
+  height: auto;
+  top: 10px;
+}
+
 .theme-brick-star-wars {
     background: #1E3A8A;
 }
+
+.star-wars-sign,
+.star-wars-death-star,
+.star-wars-ewok {
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
+    position: absolute
+}
+
+.star-wars-sign {
+ left: -20px;
+  width: 350px;
+  height: auto;
+  top: 80px;
+}
+
+.star-wars-death-star {
+ left: 340px;
+  width: 380px;
+  height: auto;
+  top: 50px;
+}
+
+.star-wars-ewok {
+  left: 480px;
+  width: 280px;
+  height: auto;
+  top: 40px;
+}
+
 
 .theme-brick-harry-potter {
     background: #991B1B;
@@ -1308,7 +1384,7 @@ footer {
 .theme-brick-duplo h4 {
     color: white;
     font-family: var(--font-heading);
-    font-size: 40px;
+    font-size: 70px;
     font-weight: 700;
     margin: 0;
 }
