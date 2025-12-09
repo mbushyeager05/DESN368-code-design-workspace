@@ -1155,12 +1155,26 @@ footer {
 
 <!-- Theme Shopping -->
 
+
+#Themes {
+    background: #2B2B2B;
+    padding: 60px 40px;
+    position: relative;
+}
+
+#Themes h2 {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
 /* Brick sections grid */
 .theme-bricks {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  padding: 40px;
+  gap: 80px;
+  padding: 80px;
   margin-top: 60px; /* Add space from buttons */
 }
 
@@ -1230,7 +1244,7 @@ footer {
     text-align: center;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    min-height: 120px;
+    min-height: 140px;
     min-width: 200px;
 }
 
@@ -1276,9 +1290,83 @@ footer {
 .theme-brick-friends h4,
 .theme-brick-duplo h4 {
     color: white;
-    font-size: 24px;
+    font-family: var(--font-heading);
+    font-size: 40px;
     font-weight: 700;
     margin: 0;
+}
+
+.theme-brick-icons:hover,
+.theme-brick-ideas:hover,
+.theme-brick-star-wars:hover,
+.theme-brick-harry-potter:hover,
+.theme-brick-technic:hover,
+.theme-brick-disney:hover,
+.theme-brick-gaming:hover,
+.theme-brick-city:hover,
+.theme-brick-ninjago:hover,
+.theme-brick-super-hero:hover,
+.theme-brick-friends:hover,
+.theme-brick-duplo:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.brick-studs-icons .brick-stud-themes {
+    background: #1F2937;
+}
+
+
+.brick-studs-ideas .brick-stud-themes {
+    background: #8B3FBF;
+}
+
+
+.brick-studs-star-wars .brick-stud-themes {
+    background: #1E3A8A;
+}
+
+
+.brick-studs-harry-potter .brick-stud-themes {
+    background: #991B1B;
+}
+
+
+.brick-studs-technic .brick-stud-themes {
+    background: #FF6700;
+}
+
+
+.brick-studs-disney .brick-stud {
+    background: #3B82F6;
+}
+
+
+.brick-studs-gaming .brick-stud {
+    background: #10B981;
+}
+
+.brick-studs-city .brick-stud {
+    background: #FBBF24;
+}
+
+
+.brick-studs-ninjago .brick-stud {
+    background: #DC2626;
+}
+
+
+.brick-studs-super-hero .brick-stud {
+    background: #2563EB;
+}
+
+
+.brick-studs-friends .brick-stud {
+    background: #EC4899;
+}
+
+.brick-studs-duplo .brick-stud {
+    background: #22C55E;
 }
 
 <!-- End Theme Shopping -->
