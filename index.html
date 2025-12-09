@@ -1,74 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<link rel="icon" type="image/png" href="my-favicon/favicon-2/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="my-favicon/favicon-2/favicon.svg" />
-    <link rel="shortcut icon" href="my-favicon/favicon-2/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="my-favicon/favicon-2/apple-touch-icon.png" />
-    <link rel="manifest" href="my-favicon/favicon-2/site.webmanifest" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
-	<h1>All HTML Pages in the Repo</h1>
-    <ul>
-		<li>week-1
-			<ul>
-				<li><a href="week-1/favoite-band.html">favoite-band.html</a></li>
-				<li><a href="week-1/lost-pet.html">lost-pet.html</a></li>
-				<li><a href="week-1/newspaper.html">newspaper.html</a></li>
-			</ul>
-		</li>
-		<li>week-2/Recipe
-			<ul>
-				<li><a href="week-2/Recipe/craigslist-ad.html">craigslist-ad.html</a></li>
-				<li><a href="week-2/Recipe/lorem-ipsum.html">lorem-ipsum.html</a></li>
-				<li><a href="week-2/Recipe/recipe.html">recipe.html</a></li>
-				<li><a href="week-2/Recipe/recipe copy.html">recipe copy.html</a></li>
-				<li><a href="week-2/Recipe/wiki-article.html">wiki-article.html</a></li>
-			</ul>
-		</li>
-	
+    <header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="learning-log.html">Learning Log</a></li>
+            <li><a href="reflection.html">Reflection</a></li>
+        </ul>
+    </nav>
+</header>
 
-	    <li>week-4
-		    <ul>
-				<li><a href="week-4/dev-tools-mb-wk4.html">Week 4 — Developer Tools Practice (Box Model & Colors)</a></li>
-				<li><a href="week-4/project-1-tribute.html">Project 1: Tribute Page</a></li>
-		   </ul>
+<main>
+    <!-- <section class="hero">
+        <div class="container">
+	<div class="shape"></div>
+</div>
 
-	    </li>
+<div class="container">
+	<div class="shape-two"></div>
+</div>
 
-		 <li>week-5
-		    <ul>
-				<li><a href="week-5/typography-layout.html">Week 5 — Typography Layout</a></li>
-				<li><a href="https://codepen.io/Michael-Bushyeager05/pen/bNEJmRJ">Week 5 — Flexbox Tutorial</a></li>
-		   </ul>
 
-	    </li>
-        
-		<li>week-6
-		    <ul>
-				<li><a href="https://codepen.io/Michael-Bushyeager05/pen/VYeJXOR">Week 6 — Sidebar to Mobile Nav Tutorial</a></li>
-				<li><a href="week-6/Interactive Field Guide.html">Week 6 — Interactive Field Guide</a></li>
-		   </ul>
+<div class="container">
+	<div class="shape-three"></div>
+</div>
 
-	    </li>
+<div class="container">
+	<div class="shape-four"></div>
+</div>
 
-		<li>week-7
-		    <ul>
-				<li><a href="week-7/css-reset-research.html">Week 7 — CSS Reset Research</a></li>
-		   </ul>
+<div class="container">
+	<div class="shape-five"></div>
+</div> -->
+        <section class="hero">
+    <div class="hero-content">
+        <div class="hero-name">
+            <h1>Hi, I'm Michael Bushyeager</h1>
+        </div>
+        <div class="hero-tagline">
+            <p>Graphic designer + coder building at the intersection of visual identity and digital experiences.</p>
+        </div>
+    </div>
+</section>
 
-	    </li>
+        <section id="about" class="about">
+        <div class="about-content">
+            <img src="assets/images/picture-of-me-michael-bushyeager-portfolio-Code-plus-design.JPG" alt="Photo of Michael Bushyeager" class="profile-pic">
+            <div class="bio">
+                <h2>About Me</h2>
+                <p>I am currently pursuing a degree in Visual Communication Design at Eastern Washington University, with minors in User Experience Design and Front-End Web Development. I have completed two internships and am eager to gain more experience over the coming years. When I’m not designing, I enjoy traveling, gardening, spending time with family and friends, and cooking/baking.
+As a passionate designer, I am dedicated to creating intuitive and engaging designs that balance aesthetics with functionality. I focus on color, typography, and layout to craft impactful and thoughtfully executed solutions. My goal is to blend creativity with purpose, producing work that is both visually compelling and meaningful.</p>
+                <div class="links">
+                    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                    <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<li>week-10</li>
-		<ul>
-				<li><a href="week-10/product-landing-page-lego.html">Week 10 — Product Landing Page Lego</a></li>
-		   </ul>
-    </ul>
 
-	<p>This is the first version of my portfolio website.<br>
-		comback next week for updates.
-	</p>
-	This is my best page right now: <a href="week-2/Recipe/recipe copy.html">recipe copy.html</a>
+    <section id="projects" class="projects">
+        <h2>Web Design Projects</h2>
+        <div class="project-grid">
+            
+            <article class="project-card">
+                <img src="assets/images/recipe-page-site-screenshot.png" alt="Screenshot of recipe page project" class="project-images">
+                <h3>Recipe Page</h3>
+                <p>A responsive recipe layout exploring typography and structured content presentation.</p>
+                <a href="week-2/Recipe/recipe.html" class="btn">View Project</a>
+            </article>
+
+            <article class="project-card">
+                <img src="assets/images/tribute-page-site-screenshot.png" alt="Screenshot of tribute site project" class="project-images">
+                <h3>Tribute Site</h3>
+                <p>A biographical tribute page demonstrating semantic HTML and CSS layout techniques.</p>
+                <a href="week-4/project-1-tribute.html" class="btn">View Project</a>
+            </article>
+
+            <article class="project-card">
+                <img src="assets/images/field-guide-page-site-screenshot.png" alt="Screenshot of AI field guide project" class="project-images">
+                <h3>AI Field Guide</h3>
+                <p>Comparative analysis of 6 AI models deployed on Figma, exploring strategic model selection frameworks.</p>
+                <a href="week-6/Interactive Field Guide.html" class="btn">View Project</a>
+            </article>
+
+            <article class="project-card">
+                <img src="images/landing-thumb.jpg" alt="Screenshot of product landing page">
+                <h3>Product Landing Page</h3>
+                <p>A marketing landing page with responsive design and interactive elements.</p>
+                <a href="week-10/product-landing-page-lego.html" class="btn">View Project</a>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="ai-projects" class="projects">
+        <h2>AI Web Design Projects</h2>
+         <div class="project-grid">
+            
+            <article class="project-card">
+                <img src="assets/images/verso-coffee-ai-web-design-projects-screenshot-image.png" alt="Screenshot of recipe page project" class="project-images">
+                <h3>Verso Coffee</h3>
+                <p>A responsive recipe layout exploring typography and structured content presentation.</p>
+                <a href="week-XX/recipe/index.html" class="btn">View Project</a>
+            </article>
+
+            <article class="project-card">
+                <img src="assets/images/ai-comparison-ai-web-design-projects-screenshot-image.png" alt="Screenshot of tribute site project" class="project-images">
+                <h3>AI comparison</h3>
+                <p>A biographical tribute page demonstrating semantic HTML and CSS layout techniques.</p>
+                <a href="week-XX/tribute/index.html" class="btn">View Project</a>
+            </article>
+
+        </div>
+
+        </section>
+   
+    <footer>
+        <!-- Copyright + Integrity Statement -->
+    </footer>
 </body>
 </html>
