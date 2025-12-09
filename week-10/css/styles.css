@@ -1297,24 +1297,24 @@ footer {
 }
 
 .harry-potter-theme-book-nook {
- left: -20px;
+left: -70px;
   width: 350px;
   height: auto;
-  top: 80px;
+  top: 100px;
 }
 
 .harry-potter-theme-hogwarts-castle {
- left: 340px;
+ left: 220px;
   width: 380px;
   height: auto;
-  top: 50px;
+  top: 10px;
 }
 
 .harry-potter-theme-the-burrow {
   left: 480px;
   width: 280px;
   height: auto;
-  top: 40px;
+  top: -40px;
 }
 
 .theme-brick-technic {
@@ -1331,14 +1331,14 @@ footer {
 }
 
 .technic-theme-2-fast-2-furious-nissan-skyline-gt-r-car {
- left: -20px;
+ left: -80px;
   width: 350px;
   height: auto;
   top: 80px;
 }
 
 .technic-theme-bush-plane {
- left: 340px;
+ left: 140px;
   width: 380px;
   height: auto;
   top: 50px;
@@ -1346,7 +1346,7 @@ footer {
 
 .technic-theme-ford-bronco-suv {
   left: 480px;
-  width: 280px;
+  width: 380px;
   height: auto;
   top: 40px;
 }
@@ -1364,90 +1364,90 @@ footer {
     position: absolute
 }
 
-.star-wars-sign {
+.disney-theme-beauty-and-the-beast-castle {
  left: -20px;
-  width: 350px;
+  width: 250px;
   height: auto;
-  top: 80px;
+  top: -30px;
 }
 
-.star-wars-death-star {
- left: 340px;
+.disney-theme-wall-e-and-eve {
+ left: 170px;
   width: 380px;
   height: auto;
   top: 50px;
 }
 
-.star-wars-ewok {
-  left: 480px;
+.disney-theme-young-simba-the-lion-king {
+ left: 480px;
   width: 280px;
   height: auto;
-  top: 40px;
+  top: -30px;
 }
 
 .theme-brick-gaming {
     background: #10B981;
 }
 
-.star-wars-sign,
-.star-wars-death-star,
-.star-wars-ewok {
+.gaming-theme-game-boy,
+.gaming-theme-mario-kart-mario-and-standard-kart,
+.gaming-theme-battle-bus {
     width: 150px;
     height: auto;
     margin-top: 40px;
     position: absolute
 }
 
-.star-wars-sign {
- left: -20px;
+.gaming-theme-game-boy {
+left: -70px;
   width: 350px;
   height: auto;
-  top: 80px;
+  top: 30px;
 }
 
-.star-wars-death-star {
- left: 340px;
+.gaming-theme-mario-kart-mario-and-standard-kart {
+left: 200px;
   width: 380px;
   height: auto;
   top: 50px;
 }
 
-.star-wars-ewok {
-  left: 480px;
+.gaming-theme-battle-bus {
+left: 480px;
   width: 280px;
   height: auto;
-  top: 40px;
+  top: -40px;
 }
 
 .theme-brick-city {
     background: #FBBF24;
 }
 
-.star-wars-sign,
-.star-wars-death-star,
-.star-wars-ewok {
+.city-theme-donut-truck,
+.city-theme-holiday-advanture-camper-van,
+.ity-theme-police-boat-chase {
     width: 150px;
     height: auto;
     margin-top: 40px;
     position: absolute
 }
 
-.star-wars-sign {
- left: -20px;
+.city-theme-donut-truck {
+ left: -120px;
   width: 350px;
   height: auto;
-  top: 80px;
+  top: 40px;
 }
 
-.star-wars-death-star {
- left: 340px;
+.city-theme-holiday-advanture-camper-van {
+ left: 440px;
   width: 380px;
   height: auto;
   top: 50px;
 }
 
-.star-wars-ewok {
-  left: 480px;
+.city-theme-police-boat-chase {
+  left: 580px;
   width: 280px;
   height: auto;
   top: 40px;
@@ -1457,136 +1457,137 @@ footer {
     background: #DC2626;
 }
 
-.star-wars-sign,
-.star-wars-death-star,
-.star-wars-ewok {
+.ninjago-theme-city-workshops,
+.ninjago-theme-thunderfang-dragon-of-chaos,
+.ninjago-theme-the-guardian-dragon {
     width: 150px;
     height: auto;
     margin-top: 40px;
     position: absolute
 }
 
-.star-wars-sign {
+.ninjago-theme-city-workshops {
  left: -20px;
-  width: 350px;
+  width: 280px;
   height: auto;
-  top: 80px;
+  top: -10px;
 }
 
-.star-wars-death-star {
- left: 340px;
+
+.ninjago-theme-thunderfang-dragon-of-chaos {
+left: 140px;
   width: 380px;
   height: auto;
-  top: 50px;
+  top: 10px;
 }
 
-.star-wars-ewok {
+.ninjago-theme-the-guardian-dragon {
   left: 480px;
   width: 280px;
   height: auto;
-  top: 40px;
+  top: -30px;
 }
 
 .theme-brick-super-hero {
     background: #2563EB;
 }
 
-.star-wars-sign,
-.star-wars-death-star,
-.star-wars-ewok {
+.super-hero-theme-advengers-tower,
+.super-hero-theme-arkham-asylum,
+.super-hero-theme-spider-man-vs-doc-ock-subway-train-scene{
     width: 150px;
     height: auto;
     margin-top: 40px;
     position: absolute
 }
 
-.star-wars-sign {
- left: -20px;
-  width: 350px;
+.super-hero-theme-advengers-tower {
+ left: -40px;
+  width: 250px;
   height: auto;
-  top: 80px;
+  top: -50px;
 }
 
-.star-wars-death-star {
- left: 340px;
+.super-hero-theme-arkham-asylum {
+left: 170px;
   width: 380px;
   height: auto;
-  top: 50px;
+  top: 30px;
 }
 
-.star-wars-ewok {
-  left: 480px;
-  width: 280px;
+.super-hero-theme-spider-man-vs-doc-ock-subway-train-scene{
+  left: 500px;
+  width: 250px;
   height: auto;
-  top: 40px;
+  margin-top: -10px;
 }
 
 .theme-brick-friends {
     background: #EC4899;
 }
 
-.star-wars-sign,
-.star-wars-death-star,
-.star-wars-ewok {
+.friends-theme-friendship-tree-house-hangout,
+.friends-theme-pet-accessories-shop,
+.friends-theme-friendship-camper-van-adventure{
     width: 150px;
     height: auto;
     margin-top: 40px;
     position: absolute
 }
 
-.star-wars-sign {
- left: -20px;
+.friends-theme-friendship-tree-house-hangout {
+ left: -90px;
   width: 350px;
   height: auto;
-  top: 80px;
+  top: -30px;
 }
 
-.star-wars-death-star {
- left: 340px;
+.friends-theme-pet-accessories-shop {
+ left: 140px;
   width: 380px;
   height: auto;
   top: 50px;
 }
 
-.star-wars-ewok {
+.friends-theme-friendship-camper-van-adventure{
   left: 480px;
-  width: 280px;
+  width: 380px;
   height: auto;
-  top: 40px;
+  top: 30px;
 }
 
 .theme-brick-duplo{
     background: #22C55E;
 }
 
-.star-wars-sign,
-.star-wars-death-star,
-.star-wars-ewok {
+.duplo-theme-ice-cream-trip-with-bluey,
+.duplo-theme-number-train--learn-to-count,
+.duplo-theme-mcqueen-s-visit-to-doc-s-garage {
     width: 150px;
     height: auto;
     margin-top: 40px;
     position: absolute
 }
 
-.star-wars-sign {
- left: -20px;
+.duplo-theme-ice-cream-trip-with-bluey{
+ left: -40px;
   width: 350px;
   height: auto;
-  top: 80px;
+  top: 20px;
 }
 
-.star-wars-death-star {
- left: 340px;
+.duplo-theme-number-train--learn-to-count {
+ left: 300px;
   width: 380px;
   height: auto;
   top: 50px;
 }
 
-.star-wars-ewok {
+.duplo-theme-mcqueen-s-visit-to-doc-s-garage {
   left: 480px;
   width: 280px;
   height: auto;
-  top: 40px;
+  top: 20px;
 }
 
 .theme-brick-icons,
@@ -1607,6 +1608,7 @@ footer {
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     min-height: 210px;
+    max-height: 210px;
     min-width: 200px;
     overflow: hidden;
 }
@@ -1732,4 +1734,24 @@ footer {
     background: #22C55E;
 }
 
+
+[class^="theme-brick-"] img {
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease; /* Smooth fade */
+}
+
+.theme-brick-icons:hover img,
+.theme-brick-ideas:hover img,
+.theme-brick-star-wars:hover img,
+.theme-brick-harry-potter:hover img,
+.theme-brick-technic:hover img,
+.theme-brick-disney:hover img,
+.theme-brick-gaming:hover img,
+.theme-brick-city:hover img,
+.theme-brick-ninjago:hover img,
+.theme-brick-super-hero:hover img,
+.theme-brick-friends:hover img,
+.theme-brick-duplo:hover img {
+    opacity: 1; /* Visible on hover */
+}
 <!-- End Theme Shopping -->
