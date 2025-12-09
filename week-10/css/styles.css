@@ -1287,36 +1287,306 @@ footer {
     background: #991B1B;
 }
 
+.harry-potter-theme-book-nook,
+.harry-potter-theme-hogwarts-castle,
+.harry-potter-theme-the-burrow {
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
+    position: absolute
+}
+
+.harry-potter-theme-book-nook {
+ left: -20px;
+  width: 350px;
+  height: auto;
+  top: 80px;
+}
+
+.harry-potter-theme-hogwarts-castle {
+ left: 340px;
+  width: 380px;
+  height: auto;
+  top: 50px;
+}
+
+.harry-potter-theme-the-burrow {
+  left: 480px;
+  width: 280px;
+  height: auto;
+  top: 40px;
+}
+
 .theme-brick-technic {
     background: #FF6700;
+}
+
+.technic-theme-2-fast-2-furious-nissan-skyline-gt-r-car,
+.technic-theme-bush-plane,
+.technic-theme-ford-bronco-suv {
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
+    position: absolute
+}
+
+.star-wars-sign {
+ left: -20px;
+  width: 350px;
+  height: auto;
+  top: 80px;
+}
+
+.star-wars-death-star {
+ left: 340px;
+  width: 380px;
+  height: auto;
+  top: 50px;
+}
+
+.star-wars-ewok {
+  left: 480px;
+  width: 280px;
+  height: auto;
+  top: 40px;
 }
 
 .theme-brick-disney {
     background: #3B82F6;
 }
 
+.star-wars-sign,
+.star-wars-death-star,
+.star-wars-ewok {
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
+    position: absolute
+}
+
+.star-wars-sign {
+ left: -20px;
+  width: 350px;
+  height: auto;
+  top: 80px;
+}
+
+.star-wars-death-star {
+ left: 340px;
+  width: 380px;
+  height: auto;
+  top: 50px;
+}
+
+.star-wars-ewok {
+  left: 480px;
+  width: 280px;
+  height: auto;
+  top: 40px;
+}
+
 .theme-brick-gaming {
     background: #10B981;
+}
+
+.star-wars-sign,
+.star-wars-death-star,
+.star-wars-ewok {
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
+    position: absolute
+}
+
+.star-wars-sign {
+ left: -20px;
+  width: 350px;
+  height: auto;
+  top: 80px;
+}
+
+.star-wars-death-star {
+ left: 340px;
+  width: 380px;
+  height: auto;
+  top: 50px;
+}
+
+.star-wars-ewok {
+  left: 480px;
+  width: 280px;
+  height: auto;
+  top: 40px;
 }
 
 .theme-brick-city {
     background: #FBBF24;
 }
 
+.star-wars-sign,
+.star-wars-death-star,
+.star-wars-ewok {
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
+    position: absolute
+}
+
+.star-wars-sign {
+ left: -20px;
+  width: 350px;
+  height: auto;
+  top: 80px;
+}
+
+.star-wars-death-star {
+ left: 340px;
+  width: 380px;
+  height: auto;
+  top: 50px;
+}
+
+.star-wars-ewok {
+  left: 480px;
+  width: 280px;
+  height: auto;
+  top: 40px;
+}
+
 .theme-brick-ninjago {
     background: #DC2626;
+}
+
+.star-wars-sign,
+.star-wars-death-star,
+.star-wars-ewok {
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
+    position: absolute
+}
+
+.star-wars-sign {
+ left: -20px;
+  width: 350px;
+  height: auto;
+  top: 80px;
+}
+
+.star-wars-death-star {
+ left: 340px;
+  width: 380px;
+  height: auto;
+  top: 50px;
+}
+
+.star-wars-ewok {
+  left: 480px;
+  width: 280px;
+  height: auto;
+  top: 40px;
 }
 
 .theme-brick-super-hero {
     background: #2563EB;
 }
 
+.star-wars-sign,
+.star-wars-death-star,
+.star-wars-ewok {
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
+    position: absolute
+}
+
+.star-wars-sign {
+ left: -20px;
+  width: 350px;
+  height: auto;
+  top: 80px;
+}
+
+.star-wars-death-star {
+ left: 340px;
+  width: 380px;
+  height: auto;
+  top: 50px;
+}
+
+.star-wars-ewok {
+  left: 480px;
+  width: 280px;
+  height: auto;
+  top: 40px;
+}
+
 .theme-brick-friends {
     background: #EC4899;
 }
 
+.star-wars-sign,
+.star-wars-death-star,
+.star-wars-ewok {
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
+    position: absolute
+}
+
+.star-wars-sign {
+ left: -20px;
+  width: 350px;
+  height: auto;
+  top: 80px;
+}
+
+.star-wars-death-star {
+ left: 340px;
+  width: 380px;
+  height: auto;
+  top: 50px;
+}
+
+.star-wars-ewok {
+  left: 480px;
+  width: 280px;
+  height: auto;
+  top: 40px;
+}
+
 .theme-brick-duplo{
     background: #22C55E;
+}
+
+.star-wars-sign,
+.star-wars-death-star,
+.star-wars-ewok {
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
+    position: absolute
+}
+
+.star-wars-sign {
+ left: -20px;
+  width: 350px;
+  height: auto;
+  top: 80px;
+}
+
+.star-wars-death-star {
+ left: 340px;
+  width: 380px;
+  height: auto;
+  top: 50px;
+}
+
+.star-wars-ewok {
+  left: 480px;
+  width: 280px;
+  height: auto;
+  top: 40px;
 }
 
 .theme-brick-icons,
