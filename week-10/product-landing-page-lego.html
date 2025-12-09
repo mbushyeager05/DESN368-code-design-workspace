@@ -11,26 +11,78 @@
     
   </header>
   
- <section id="heeader">
- <nav>
-    <ul>
-      <div class="form-group">
-    <input type="email" id="email" name="email" required>      
-  </div>
-      <li><a href="#">Shop</a></li>
-      <li><a href="#">Discover</a></li>
-      <li><a href="#">Help</a></li>
-      <li><a href="#">Profile</a></li>
-      <li><a href="#">Shopping Cart</a></li>
-    </ul>
-  </nav>
-  </section>
+ <section id="header">
+<nav>
+        <!-- Top row with Play Zone and Join Lego Insiders -->
+        <div class="header-top">
+            <button class="play-zone-btn">Play Zone</button>
+            <a href="#" class="join-insiders">Join Lego Insiders</a>
+        </div>
+        
+        <!-- Main navigation bar with LEGO brick studs -->
+        <div class="nav-brick">
+            <!-- LEGO Brick Studs on top -->
+            <div class="brick-studs-nav">
+                <div class="nav-stud"></div>
+                <div class="nav-stud"></div>
+                <div class="nav-stud"></div>
+                <div class="nav-stud"></div>
+                <div class="nav-stud"></div>
+                <div class="nav-stud"></div>
+                <div class="nav-stud"></div>
+                <div class="nav-stud"></div>
+                <div class="nav-stud"></div>
+                <div class="nav-stud"></div>
+                <div class="nav-stud"></div>
+                <div class="nav-stud"></div>
+                <div class="nav-stud"></div>
+                <div class="nav-stud"></div>
+                <div class="nav-stud"></div>
+            </div>
+            
+            <!-- Main nav content -->
+            <div class="nav-content">
+                <!-- LEGO Logo -->
+                <div class="logo">
+                    <img src="assets/images/brand-lego.svg" alt="LEGO">
+                </div>
+                
+                <!-- Search Bar -->
+                <div class="search-bar">
+                    <input type="text" placeholder="Search" class="search-input">
+                </div>
+                
+                <!-- Navigation Links -->
+                <ul class="nav-links">
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#discover">Discover</a></li>
+                    <li><a href="#help">Help</a></li>
+                </ul>
+                <div class="user-icons">
+                    <a href="#" class="icon-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="icon-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+        </section>
   
   <main>
     
     <!-- All your main content sections go here -->
-    
+   <div class="hero-area">
     <h1> Build Your World</h1>
+    <h2> Scroll to Explore</h2>
+  </div>
     <!--<div class="lego">
   <div class="stud stud-left"></div>
   <div class="stud stud-right"></div>
@@ -68,6 +120,8 @@
           <article class="card">
             <div class="new-label">
               <img src="assets/images/gift-wrap.svg" alt="Gift Wrap" class="gift-wrap">
+              <div class="horizontal-ribbon"></div>
+              <div class="vertical-ribbon"></div>
             <h3>New</h3>
             </div>
             <img src="assets/images/gingerbread-at-at.webp" alt="Gingerbread AT-AT Walker" class="product-image">
@@ -192,20 +246,39 @@ House (40809)</td>
       
 
       <section id="trending-products">
+<img src="assets/images/what's-new.svg" class="section-dividers">
 
-<div class="trending-products-divider">
-       <img src="assets/images/what's-new.svg" class="section-dividers">
-      </div>
 
          <div class="image-grid">
-          <h2 class="grid-item"> Explore What's Tending</h2>
-          <button class="grid-item">Explore All</button>
-    <img class="grid-item large" src="assets/images/italian-riviera.jpg.webp" alt="Italian Riviera">
-    <img class="grid-item tall" src="assets/images/goonies.jpg.webp" alt="Goonies">
-    <img class="grid-item" src="assets/images/titanic.jpg.webp" alt="Titanic">
-    <img class="grid-item" src="assets/images/harry-pooter-hogsmeade.jpg.webp" alt="Harry Pooter Hogsmeade">
-    <img class="grid-item" src="assets/images/star-trek-interprise.jpg.webp" alt="Star Trek Interprise">
-  </div>
+    <h2>Explore What's Tending</h2>
+    <button class="grid-item">Explore All</button>
+    
+    <!-- Add product-label div after each img -->
+    <div class="grid-item-wrapper">
+        <img class="grid-item" src="assets/images/italian-riviera.jpg.webp" alt="Italian Riviera">
+        <div class="product-label">Italian Riviera</div>
+    </div>
+    
+    <div class="grid-item-wrapper">
+        <img class="grid-item" src="assets/images/goonies.jpg.webp" alt="Goonies">
+        <div class="product-label">The Goonies</div>
+    </div>
+    
+    <div class="grid-item-wrapper">
+        <img class="grid-item" src="assets/images/titanic.jpg.webp" alt="Titanic">
+        <div class="product-label">Titanic</div>
+    </div>
+    
+    <div class="grid-item-wrapper">
+        <img class="grid-item" src="assets/images/harry-pooter-hogsmeade.jpg.webp" alt="Harry Potter">
+        <div class="product-label">Harry Potter Hogsmeade</div>
+    </div>
+    
+    <div class="grid-item-wrapper">
+        <img class="grid-item" src="assets/images/star-trek-interprise.jpg.webp" alt="Star Trek">
+        <div class="product-label">Star Trek Enterprise</div>
+    </div>
+</div>
       </section>
       
       <section id="popular">
@@ -277,10 +350,15 @@ House (40809)</td>
       </section>
       
       <section id="Themes">
+
+        <img src="assets/images/themes-divider.png" class="section-dividers">
        
       <h2> Shop by Theme</h2>
-      <button> Explore All Themes</button>
-      <button> Learn More</button>
+
+      <div class="button-group">
+      <button class="theme-button"> Explore All Themes</button>
+      <button class="theme-button"> Learn More</button>
+      </div>
         
      
 
@@ -293,6 +371,7 @@ House (40809)</td>
                     <div class="brick-stud-themes"></div>
                     <div class="brick-stud-themes"></div>
                 </div>
+                
                 <h4>Icons</h4>
                 <img src="assets/images/icons-tudor-corner.png.webp" alt="Lego Tudor Corner" class="icons-theme-turdor-corner">
                 <img src="assets/images/icons-krusty-burger.png.webp" alt="Lego Krusty Burger" class="icons-theme-krusty-burger">
@@ -322,6 +401,7 @@ House (40809)</td>
                 <img src="assets/images/star-wars-sign.png.webp" alt="Lego Star Wars Sign" class="star-wars-sign">
                 <img src="assets/images/star-wars-death-star.png.webp" alt="Lego Death Star" class="star-wars-death-star">
                 <img src="assets/images/star-wars-ewok.png.webp" alt="Lego Ewok" class="star-wars-ewok">
+  
             </div>
 
             <div class="theme-brick-harry-potter">
@@ -331,10 +411,12 @@ House (40809)</td>
                     <div class="brick-stud-themes"></div>
                     <div class="brick-stud-themes"></div>
                 </div>
+          
                 <h4>Harry Potter</h4>
                 <img src="assets/images/harry-potter-book-nook.png.webp" alt="Lego Harry Potter Book Nook" class="harry-potter-theme-book-nook">
                 <img src="assets/images/harry-potter-hogwarts-castel.png.webp" alt="Lego Harry Potter Hogwarts Castle" class="harry-potter-theme-hogwarts-castle">
                 <img src="assets/images/harry-potter-the-burrow.png.webp" alt="Lego Harry Potter The Burrow" class="harry-potter-theme-the-burrow">
+               
             </div>
 
             <div class="theme-brick-technic">
@@ -387,6 +469,7 @@ House (40809)</td>
                 <img src="assets/images/city-donut-truck.png.webp" alt="Lego Donut Truck" class="city-theme-donut-truck">
                 <img src="assets/images/city-holiday-advanture-camper-van.png.webp" alt="Lego Holiday Adventure Camper Van" class="city-theme-holiday-advanture-camper-van">
                 <img src="assets/images/city-police-boat-chase.png.webp" alt="Lego Police Boat Chase" class="city-theme-police-boat-chase">
+              
                 </div>
 
                 <div class="theme-brick-ninjago">
@@ -396,10 +479,12 @@ House (40809)</td>
                     <div class="brick-stud-themes"></div>
                     <div class="brick-stud-themes"></div>
                 </div>
+                
                 <h4>Ninjago</h4>
                 <img src="assets/images/ninjago-city-workshops.png.webp" alt="Lego Ninjago City Workshops" class="ninjago-theme-city-workshops">
                 <img src="assets/images/ninjago-thunderfang-dragon-of-chaos.png.webp" alt="Lego Thunderfang Dragon of Chaos" class="ninjago-theme-thunderfang-dragon-of-chaos">
                 <img src="assets/images/ninjago-the-guardian-dragon.png.webp" alt="Lego The Guardian Dragon" class="ninjago-theme-the-guardian-dragon">
+                
                 </div>
 
                 <div class="theme-brick-super-hero">
@@ -409,10 +494,12 @@ House (40809)</td>
                     <div class="brick-stud-themes"></div>
                     <div class="brick-stud-themes"></div>
                 </div>
+                
                 <h4>Super Hero</h4>
                 <img src="assets/images/super-heros-advengers-tower.png.webp" alt="Lego Super Heros Advengers Tower" class="super-hero-theme-advengers-tower">
                 <img src="assets/images/super-heros-arkham-asylum.png.webp" alt="Lego Arkham Asylum" class="super-hero-theme-arkham-asylum">
                 <img src="assets/images/super-heros-spider-man-vs.-doc-ock-subway-train-scene.png.webp" alt="Lego Spider Man vs. Doc Ock Subway Train Scene" class="super-hero-theme-spider-man-vs-doc-ock-subway-train-scene">
+                
                 </div>
 
                 <div class="theme-brick-friends">
@@ -422,10 +509,12 @@ House (40809)</td>
                     <div class="brick-stud-themes"></div>
                     <div class="brick-stud-themes"></div>
                 </div>
+               
                 <h4>Friends</h4>
                 <img src="assets/images/friends-friendship-tree-house-hangout.png.webp" alt="Lego Friends Friendship Tree House Hangout" class="friends-theme-friendship-tree-house-hangout">
                 <img src="assets/images/friends-pet-accessories-shop.png.webp" alt="Lego Friends Pet Accessories Shop" class="friends-theme-pet-accessories-shop">
                 <img src="assets/images/friends-friendship-camper-van-adventure.png.webp" alt="Lego Friends Friendship Camper Van Adventure" class="friends-theme-friendship-camper-van-adventure">
+               
                 </div>
 
                 <div class="theme-brick-duplo">
@@ -435,10 +524,12 @@ House (40809)</td>
                     <div class="brick-stud-themes"></div>
                     <div class="brick-stud-themes"></div>
                 </div>
+                
                 <h4>Duplo</h4>
                 <img src="assets/images/duplo-ice-cream-trip-with-bluey.png.webp" alt="Lego Duplo Ice Cream Trip with Bluey" class="duplo-theme-ice-cream-trip-with-bluey">
                 <img src="assets/images/duplo-number-train--learn-to-count.png.webp" alt="Lego Duplo Number Train Learn to Count" class="duplo-theme-number-train--learn-to-count">
                 <img src="assets/images/duplo-mcqueen's-visit-to-doc's-garage.png.webp" alt="Lego Duplo McQueen's Visit to Doc's Garage" class="duplo-theme-mcqueen-s-visit-to-doc-s-garage">
+              
                 </div>
    
 </div>
@@ -531,8 +622,7 @@ House (40809)</td>
       <img src="assets/images/lego-insider-promotion.png" alt="Lego Insider Promotion" class="lego-insider-promotion">
 
       <form id="lego-insider-form">
-        <h2>Create Your LEGO® Insiders Account</h2>
-  
+  <h2>Create Your LEGO® Insiders Account</h2>
   <div class="form-group">
     <label for="name">Your Name</label>
     <input type="text" id="name" name="name" required>
@@ -555,22 +645,22 @@ House (40809)</td>
   <h2>Learn More</h2>
 
   <div class="learn-more-grid">
-    <article class="learn-card large-card">
+    <article class="learn-card">
       <h2>Gifting</h2>
       <p>Shop ideas by occasion, age and price. Plus Gift Cards too!</p>
-      <img src="assets/images/gifting-characters.png" alt="Gifting">
+      <img src="assets/images/gifting-image.png" alt="Gifting">
     </article>
       
     <article class="learn-card">
       <h2>Latest News</h2>
-      <img src="assets/images/news-character.png" alt="Latest News">
-      <p>See our library of articles for ideas and inspiration</p>
+       <p>See our library of articles for ideas and inspiration</p>
+      <img src="assets/images/latest-news-image.png" alt="Latest News">
     </article>
         
     <article class="learn-card">
       <h2>Custom Minifigure</h2>
-      <img src="assets/images/custom-minifig.png" alt="Custom Minifigure">
       <p>One-of-a-kind, just like them.</p>
+      <img src="assets/images/custom-minifigure-image.png" alt="Custom Minifigure">
     </article>
   </div>  
 </section>
