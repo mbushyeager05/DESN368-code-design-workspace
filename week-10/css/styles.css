@@ -28,6 +28,7 @@ body {
 }
 
 
+
 .play-zone-btn {
     background: white;
     color: #D32F2F;
@@ -174,6 +175,65 @@ body {
     height: 40px;
 }
 
+.header-top {
+    padding: 20px 40px 30px 40px; /* Extra bottom padding */
+}
+
+.nav-brick {
+    padding: 0;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 40px 40px;
+    background: #f5f5f5;
+    flex-direction: row-reverse; /* ✅ Reverses order */
+}
+
+#header {
+    width: 100%;
+    background: #f5f5f5;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+/* When user scrolls DOWN past threshold - header becomes fixed but hidden */
+#header.scroll-down {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transform: translateY(-100%); /* Slide up and hide */
+}
+
+/* When user scrolls UP - header becomes fixed and visible */
+#header.scroll-up {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transform: translateY(0); /* Slide down and show */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    animation: slideDown 0.3s ease-out;
+}
+
+/* Animation for smooth slide down */
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
 h1 {
   font-family: var(--font-heading);
   font-weight: 700;
@@ -260,6 +320,7 @@ box-shadow: 0 0 40px #22C55E;
   color: var(--color-dark);
   padding: 6px 18px;
   border-radius: 20px;
+  font-family: var(--font-body);
   font-weight: 600;
   font-size: 14px;
   z-index: 2;
@@ -274,31 +335,34 @@ box-shadow: 0 0 40px #22C55E;
 }
 
 .card h5 {
+  font-family: var(--font-body);
   font-size: 1rem;
   margin: 0.25rem 0; /* Reduced margin around price */
   padding: 0;
 }
 
 .add-to-bag {
-  background-color: var(--color-gold);
+  background-color: var(--color-gold-bright);
   border: none;
   border-radius: 10px;
   padding: 0.75rem 2rem;
   width: fit-content;
   margin: 0.5rem auto 0;
   cursor: pointer;
-  font-family: var(--font-heading);
+  font-family: var(--font-body);
   font-size: 0.9rem;
   font-weight: 600;
   opacity: 0; /* Hidden by default */
   transform: translateY(30px);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .card:hover .add-to-bag {
   opacity: 1;
   transform: translateY(0);
-  background-color: var(--color-gold-dark);
+  background-color: var(--color-gold-bright);
+  filter: drop-shadow(0 0 5px var(--color-gold-bright));
 }
 
 .card:hover .add-to-bag {
@@ -310,6 +374,7 @@ box-shadow: 0 0 40px #22C55E;
 .card h3:not(.new-label h3),
 .card h5,
 .card h4 {
+  font-family: var(--font-body);
   opacity: 0;
   transform: translateY(30px);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -403,7 +468,7 @@ box-shadow: 0 0 40px #22C55E;
 
 .card .gift-wrap {
   position: absolute;
-  top: -160px;
+  top: -170px;
   left: 140px;
   transform: translateX(-50%);
   width: 300%;
@@ -432,6 +497,17 @@ box-shadow: 0 0 40px #22C55E;
   height: 442px;
   background-color: #E3000B;
   z-index: 1;
+}
+
+.card h3,
+.card p,
+.card .product-specs,
+.card .new-badge,
+.card button,
+.card-content,
+.card img {
+  position: relative;
+  z-index: 10; /* Higher z-index - in front of ribbon */
 }
 
 .card:hover .gift-wrap {
@@ -628,6 +704,8 @@ table {
 }
 
 .lego-insiders-second-image {
+   grid-column: 2;
+  grid-row: 1 / 3; 
   display: block;
   width: 400px;
   height: 500px;
@@ -638,7 +716,7 @@ table {
 
 #lego-insiders {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 #popular-section-divider{
@@ -646,11 +724,42 @@ table {
 }
 
 .lego-insiders-card { 
+  grid-column: 3/4;
+  grid-row: 1 / 3; 
+  align-self: start;
   padding: 2rem;
   text-align: center;
   max-width: 400px;
   margin: auto;
+  margin-left: -10%;
+  border: 4px solid #009BD7;
+  border-radius: 12px;
+  background-color: var(--color-white);
 }
+.lego-insiders-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers all children horizontally */
+    justify-content: flex-start;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+.lego-insiders-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%; 
+}
+
+.lego-insiders-logo img {
+    max-width: 400px;
+    height: auto;
+    display: block;
+}
+
 
 .insiders-buttons {
   display: flex;
@@ -660,36 +769,51 @@ table {
 }
 
 
-.insiders-login {
-  color: var(--color-dark);
-  font-size: 0.9rem;
-}
 
 .btn-create {
-  background-color: var(--color-blue);
-  color: var(--color-white);
-  border: none;
-  padding: 12px 24px;
-  border-radius: 15px;
+   display: flex;
+    background-color: #009BD7;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    border: 3px solid #009BD7;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn-create:hover {
+  filter: drop-shadow(0 0 2px #009BD7);
   cursor: pointer;
 }
+
 
 .btn-learn {
   background-color: var(--color-white);
-  color: var(--color-blue);
-  border: 2px solid var(--color-blue);
+  color: #009BD7;
+  border: 2px solid #009BD7;
   padding: 12px 24px;
-  border-radius: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn-learn:hover {
+  background-color : #009BD7;
+  color: var(--color-light-gray);
   cursor: pointer;
 }
 
 
-.lego-insiders-logo {
-  width: 500px;
-  height: auto;
-  margin-bottom: 2rem;
-  margin-right: 20px;
-  display: block;
+.insiders-login {
+    background-color: transparent;
+    font-family: var(--font-body);
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+}
+
+.insiders-login:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 
@@ -828,7 +952,7 @@ table {
   grid-column: 4 / 6;
   grid-row: 1/3;
 }
-#botanicals h2, p {
+#botanicals h2 {
   color: var(--color-light-gray)
 }
 
@@ -844,9 +968,10 @@ table {
   filter: brightness(1.2) drop-shadow(0 0 20px #22C55E);
 } */
 
-#botanicals p  {
-  text-align: center;
+.botanicals-info {
+ text-align: center;
   align-items: center;
+  color: var(--color-light-gray);
   font-family: var(--font-heading);
   font-size: 2rem;
   font-weight: 400;
@@ -855,7 +980,10 @@ table {
   margin-top: 5rem;
 }
 
-#botanicals > button {
+
+
+
+.botanicals-view-all {
   display: block;
   margin: 0 auto;
   margin-top: 4rem;
@@ -879,6 +1007,15 @@ table {
 }
 
 
+#video-header {
+  text-align: center;
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-light-gray);
+  margin-top: 4rem;
+}
+
 #popular h2 {
   font-size: 5rem;
   color: var(--color-light-gray);
@@ -895,14 +1032,7 @@ iframe {
   padding-bottom: 2rem;
 }
 
-#popular p {
-  text-align: center;
-  font-family: var(--font-heading);
-  font-size: 3rem;
-  font-weight: 500;
-  color: var(--color-light-gray);
-  margin-bottom: 1rem;
-}
+
 
 
 #botanicals {
@@ -2099,3 +2229,4 @@ left: 170px;
 
 
 <!-- End Theme Shopping -->
+

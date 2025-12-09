@@ -6,6 +6,8 @@
   <title>Your Product Name</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
+
 <body>
   <header id="header">
     
@@ -15,9 +17,11 @@
 <nav>
         <!-- Top row with Play Zone and Join Lego Insiders -->
         <div class="header-top">
-            <button class="play-zone-btn">Play Zone</button>
             <a href="#" class="join-insiders">Join Lego Insiders</a>
+            <button class="play-zone-btn">Play Zone</button>
         </div>
+
+        <div id="main-header"
         
         <!-- Main navigation bar with LEGO brick studs -->
         <div class="nav-brick">
@@ -79,10 +83,18 @@
   <main>
     
     <!-- All your main content sections go here -->
+    <section id="hero-section">
+      <div class="lego-changing-color-bricks">
+
+
+        
+      </div>
+    </section>
    <div class="hero-area">
     <h1> Build Your World</h1>
     <h2> Scroll to Explore</h2>
   </div>
+</section>
     <!--<div class="lego">
   <div class="stud stud-left"></div>
   <div class="stud stud-right"></div>
@@ -99,7 +111,7 @@
     <button class="btn-learn">Learn More</button>
   </div>
   
-  <p class="insiders-login">Already have an Account?</p>
+  <button class="insiders-login">Already have an Account?</button>
 </div>
     </section>
        
@@ -139,6 +151,8 @@
             <article class="card">
               <div class="new-label">
                 <img src="assets/images/gift-wrap.svg" alt="Gift Wrap" class="gift-wrap">
+                <div class="horizontal-ribbon"></div>
+              <div class="vertical-ribbon"></div>
             <h3>New</h3>
               </div>
               <img src="assets/images/holiday-train.webp" alt="Holiday Express Train" class="product-image">
@@ -155,6 +169,8 @@
           <article class="card">
             <div class="new-label">
               <img src="assets/images/gift-wrap.svg" alt="Gift Wrap" class="gift-wrap">
+              <div class="horizontal-ribbon"></div>
+              <div class="vertical-ribbon"></div>
             <h3>New</h3>
             </div>
             <img src="assets/images/family-christmas-tree.webp" alt="Family Christmas Tree" class="product-image">
@@ -170,6 +186,8 @@
           <article class="card">
              <div class="new-label">
               <img src="assets/images/gift-wrap.svg" alt="Gift Wrap" class="gift-wrap">
+              <div class="horizontal-ribbon"></div>
+              <div class="vertical-ribbon"></div>
             <h3>New</h3>
              </div>
                   <img src="assets/images/snowman-ornaments.webp" alt="Snowman Ornaments" class="product-image">
@@ -301,7 +319,9 @@ House (40809)</td>
         <div class="card-grid">
           </article>
             <article class="card">
+              <div class="new-label">
               <h3>Exclusive</h3>
+              </div>
                <img src="assets/images/minifigure-vending-machine.webp" alt="Minifigure Vending Machine" class="product-image">
                 <div class="product-specs">
              <p>10+</p>
@@ -314,7 +334,9 @@ House (40809)</td>
           </article>
                 
           <article class="card">
+            <div class="new-label">
             <h3>Popular</h3>
+            </div>
              <img src="assets/images/happy-plants.webp" alt="Happy Plants" class="product-image">
               <div class="product-specs">
              <p>10+</p>
@@ -341,8 +363,10 @@ House (40809)</td>
           </article>
                   
         </div>
-        <div class="video-secion">         
-        <p> If it's Play You're Looking For? Look no further... 🎶</p>
+        <div class="video-secion">  
+        <div id="video-header">       
+        <h3> If it's Play You're Looking For? Look no further... 🎶</h3>
+        </div>
         <div class="video-wrapper">
         <iframe width="1000" height="550" src="https://www.youtube.com/embed/j80laKb6cR4?si=geJCed03ZNREh2r5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>  
@@ -562,11 +586,11 @@ House (40809)</td>
     <h3>Multiple Builders</h3>
   </div>
                 <img src="assets/images/tiny-plants.webp" alt="Tiny Plants" class="product-image">
-                <div class="product-specs">
+           <div class="product-specs">
              <p>10+</p>
              <p>697</p>
              <p>4.5</p>
-                </div>
+           </div>
           <h3>Tiny Plants</h3>
         <h5>$49.99</h5>
         <button class="add-to-bag">Add to Bag</button>
@@ -600,10 +624,12 @@ House (40809)</td>
           </article>
                   
         </div>
-              
+      <div class="botanicals-info">        
         <p>Le Florist welcomes you to a bounty of blooming gifts with fresh twists for anyone you love, for any occasion.</p>
-        <button>View All</button>
+      </div>
 
+        <button class="botanicals-view-all">View All</button>
+      
     
         <img src="assets/images/mini-orchid-lego.webp" alt="Mini Orchid Lego" class="mini-orchid-image">
 
