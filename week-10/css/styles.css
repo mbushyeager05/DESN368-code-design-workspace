@@ -176,7 +176,7 @@ body {
 }
 
 .header-top {
-    padding: 20px 40px 30px 40px; /* Extra bottom padding */
+    padding: 20px 40px 30px 40px; 
 }
 
 .nav-brick {
@@ -189,7 +189,7 @@ body {
     align-items: center;
     padding: 20px 40px 40px 40px;
     background: #f5f5f5;
-    flex-direction: row-reverse; /* ✅ Reverses order */
+    flex-direction: row-reverse;
 }
 
 #header {
@@ -202,7 +202,7 @@ body {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
 }
 
-/* When user scrolls DOWN past threshold - header becomes fixed but hidden */
+
 #header.scroll-down {
     position: fixed;
     top: 0;
@@ -212,7 +212,7 @@ body {
     transform: translateY(-100%); /* Slide up and hide */
 }
 
-/* When user scrolls UP - header becomes fixed and visible */
+
 #header.scroll-up {
     position: fixed;
     top: 0;
@@ -224,7 +224,6 @@ body {
     animation: slideDown 0.3s ease-out;
 }
 
-/* Animation for smooth slide down */
 @keyframes slideDown {
     from {
         transform: translateY(-100%);
@@ -379,7 +378,7 @@ h2 {
 
 .card {
   width: 288px;
-  height: 300px; /* You can reduce this if needed */
+  height: 300px; 
   cursor: pointer;
   position: relative;
   border-radius: 10px;
@@ -608,7 +607,7 @@ box-shadow: 0 0 40px #22C55E;
 .card-content,
 .card img {
   position: relative;
-  z-index: 10; /* Higher z-index - in front of ribbon */
+  z-index: 10; 
 }
 
 .card:hover .gift-wrap {
@@ -1163,12 +1162,12 @@ iframe {
 
 @keyframes magicGlow {
   0%, 100% {
-    transform: rotate(35deg) scale(1.2); /* Include BOTH rotate and scale */
+    transform: rotate(35deg) scale(1.2); 
     filter: brightness(1) drop-shadow(0 0 10px rgba(255,255,255,0.3));
     opacity: 0.6;
   }
   50% {
-    transform: rotate(50deg) scale(1.2); /* Include BOTH rotate and scale */
+    transform: rotate(50deg) scale(1.2); 
     filter: brightness(1.2) drop-shadow(0 0 20px #22C55E);
     opacity: 1;
   }
@@ -1922,9 +1921,9 @@ footer {
     z-index: 2;
 }
 
-/* ABSOLUTELY POSITIONED IMAGES */
 
-/* Icons brick images */
+
+
 .icons-theme-turdor-corner,
 .icons-theme-krusty-burger,
 .icons-theme-fish-tank {
@@ -2286,20 +2285,6 @@ footer {
     opacity: 1; /* Visible on hover */
 }
 
-[class^="icons-theme-"],
-[class^="ideas-theme-"],
-[class^="star-wars-"],
-[class^="harry-potter-theme-"],
-[class^="technic-theme-"],
-[class^="disney-theme-"],
-[class^="gaming-theme-"],
-[class^="city-theme-"],
-[class^="ninjago-theme-"],
-[class^="super-hero-theme-"],
-[class^="friends-theme-"],
-[class^="duplo-theme-"] {
-    clip-path: inset(0% 0% 0% 0%); /* Clips at brick boundary */
-}
 
 /* ============================================
    RESPONSIVE MEDIA QUERIES
