@@ -10,7 +10,7 @@ Instructor: Travis Masingale
 
 This repository documents my journey through DESN368, where I learned to build for the web with HTML and CSS—understanding how the web actually works at the source level.
 
-- **[View Live Portfolio](https://[your-username].github.io/[your-repo-name]/)**
+- **[View Live Portfolio] https://mbushyeager05.github.io/DESN368-code-design-workspace**
 - **[View Learning Log](https://[your-username].github.io/[your-repo-name]/learning-log.html)** — Weekly progress & exercises
 
 ---
@@ -35,10 +35,10 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
 | Project | Description | Live Site | Process |
 |---------|-------------|-----------|---------|
-| The Recipe | A basic HTML layout and basic CSS styles for a reipe of Zuchinni Bread. | [View →](./week-XX/recipe/) | [Figma] No link |
-| Tribute Site | A tribue site suing HTMl and CSS. Plus, also Flexbox, for a tribute page/site for Tim Cook.| [View →](./week-XX/tribute/) | [Figma] https://www.figma.com/design/WJpAHC5Z9uSkvoC11hd50b/Tibute-Site-Tim-Cook--MB?node-id=0-1&p=f&t=mNBkRBwhf2dXH81S-0 |
-| Field Guide | A Field Guide using HTML and CSS. That goes over he game Cities Skylines. Using a two column layout and a side navigation bar. Also includes a reflection page and a link to my portfolio. | [View →](./week-XX/field-guide/) | [Figma] https://www.figma.com/design/ntNWFMIojTq71yArpCV6ZX/Interactive-Field-Guide-MB?node-id=0-1&t=vaWq5oq5xlSSyuXR-1 |
-| Product Landing Page | A product Landing Page for Lego using HTMl and CSS to create a whole new lok for the Lego Prodct Lego Page. Used Grid, Flexbox and CSS animations. Plus card grids for the Lego Landing Product Page. | [View →](./week-XX/landing-page/) | [Figma] https://www.figma.com/design/wwbkc8W06HrM4rDsNr7yWn/ Product-Landing-Page-Bushyeager-Michael?node-id=0-1&t=D0EwnL72iuqhpcKg-1|
+| The Recipe | A basic HTML layout and basic CSS styles for a reipe of Zuchinni Bread. | [View →]https://mbushyeager05.github.io/DESN368-code-design-workspace/week-2/Recipe/recipe.html | [Figma] No link |
+| Tribute Site | A tribue site suing HTMl and CSS. Plus, also Flexbox, for a tribute page/site for Tim Cook.| [View →]https://mbushyeager05.github.io/DESN368-code-design-workspace/week-4/project-1-tribute.html | [Figma] https://www.figma.com/design/WJpAHC5Z9uSkvoC11hd50b/Tibute-Site-Tim-Cook--MB?node-id=0-1&p=f&t=mNBkRBwhf2dXH81S-0 |
+| Field Guide | A Field Guide using HTML and CSS. That goes over he game Cities Skylines. Using a two column layout and a side navigation bar. Also includes a reflection page and a link to my portfolio. | [View →] https://mbushyeager05.github.io/DESN368-code-design-workspace/week-6/Interactive%20Field%20Guide.html| [Figma] https://www.figma.com/design/ntNWFMIojTq71yArpCV6ZX/Interactive-Field-Guide-MB?node-id=0-1&t=vaWq5oq5xlSSyuXR-1 |
+| Product Landing Page | A product Landing Page for Lego using HTMl and CSS to create a whole new lok for the Lego Prodct Lego Page. Used Grid, Flexbox and CSS animations. Plus card grids for the Lego Landing Product Page. | [View →] https://mbushyeager05.github.io/DESN368-code-design-workspace/week-10/product-landing-page-lego.html | [Figma] https://www.figma.com/design/wwbkc8W06HrM4rDsNr7yWn/ Product-Landing-Page-Bushyeager-Michael?node-id=0-1&t=D0EwnL72iuqhpcKg-1|
 
 ---
 
