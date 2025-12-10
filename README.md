@@ -1,4 +1,4 @@
-# [Your Name] — Web Design Portfolio
+# Michael Bushyeager — Web Design Portfolio
 
 **DESN368: Code + Design 1 | Fall 2025**  
 Eastern Washington University  
