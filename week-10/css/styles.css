@@ -247,6 +247,20 @@ h1 {
   padding-bottom: 4rem;
 }
 
+.hero-background {
+  width: 1000px;
+  height: 1000px;;
+
+  position: absolute;
+  margin-top: -120px;
+  margin-left: 90px;
+  z-index: -1;
+}
+
+
+
+
+
 h2 {
   font-family: var(--font-heading);
   font-weight: 700;
@@ -254,6 +268,54 @@ h2 {
   text-align: center;
   margin-top: -6rem;
   margin-bottom: 4rem;
+}
+
+
+.holiday-decorations {
+  position: absolute
+}
+
+.lego-candycane-one {
+  width: 150px;
+  position: absolute;
+  top: -190px;
+  left: 20px;
+}
+
+.lego-candycane-two {
+  position: absolute;
+  top: 180px;
+  left: 1500px;
+  rotate: 45deg;
+}
+
+
+.lego-candycane-three {
+  position: absolute;
+  width: 150px;
+  top: 1180px;
+  left: 300px;
+  rotate: -45deg;
+}
+
+.lego-candycane-four {
+  position: absolute;
+  width: 150px;
+  top: 900px;
+  left: 1600px;
+  rotate: -85deg;
+}
+
+.lego-candycane-five {
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  rotate: -5deg;
+}
+
+
+.holiday-decorations-two {
+  position: absolute;
 }
 
 #holiday h2 {
@@ -1580,12 +1642,8 @@ footer {
     margin-top: 20px;
 }
 
-<!-- Theme Shopping -->
-
-
+/* Theme Shopping */
 #Themes {
-    background: #2B2B2B;
-    padding: 60px 40px;
     position: relative;
 }
 
@@ -1596,448 +1654,125 @@ footer {
     margin-bottom: 30px;
 }
 
-
 .theme-button {
-  background-color: #DC2626;
-  border: none;
-  border-radius: 12px;
-  color: var(--color-light-gray);
-  font-family: var(--font-heading);
-  font-weight: 600;
-  font-size: 2rem;
-  padding: 12px 30px;
-  cursor: pointer;
+    background-color: #DC2626;
+    border: none;
+    border-radius: 12px;
+    color: var(--color-light-gray);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 12px 30px;
+    cursor: pointer;
+}
+
+.theme-button:hover {
+    background-color: #B91C1C;
 }
 
 .button-group {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }
 
 /* Brick sections grid */
 .theme-bricks {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 80px;
-  padding: 80px;
-  margin-top: 60px; /* Add space from buttons */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    padding: 80px;
+    margin-top: 60px;
 }
 
-.theme-brick-icons {
+/* WRAPPER - Allows studs to overflow */
+.theme-brick-wrapper {
+    position: relative;
+    overflow: visible; /* Critical! Allows studs to show */
+    margin-top: 30px; /* Space for studs */
+}
+
+/* STUDS - Positioned above brick */
+.brick-studs-icons,
+.brick-studs-ideas,
+.brick-studs-star-wars,
+.brick-studs-harry-potter,
+.brick-studs-technic,
+.brick-studs-disney,
+.brick-studs-gaming,
+.brick-studs-city,
+.brick-studs-ninjago,
+.brick-studs-super-hero,
+.brick-studs-friends,
+.brick-studs-duplo {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2;
+}
+
+.brick-stud-themes {
+    width: 90px;
+    height: 25px;
+    border-left: 2px solid rgba(0, 0, 0, 0.15);
+    border-right: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+/* Individual stud colors */
+.brick-studs-icons .brick-stud-themes {
     background: #1F2937;
 }
 
-.icons-theme-turdor-corner,
-.icons-theme-krusty-burger,
-.icons-theme-fish-tank {
-    width: 150px;
-    height: auto;
-    margin-top: 20px;
-    position: absolute
-}
-
-.icons-theme-turdor-corner {
-    left: -80px;
-  width: 350px;
-  height: auto;
-  top: -10px;
-}
-
-.icons-theme-krusty-burger {
-  left: 180px;
-  width: 350px;
-  height: auto;
-  top: 0px;
-}
-
-.icons-theme-fish-tank {
-  left: 480px;
-  width: 350px;
-  height: auto;
-  top: 60px;
-}
-
-
-
-.theme-brick-ideas {
+.brick-studs-ideas .brick-stud-themes {
     background: #8B3FBF;
 }
 
-.ideas-theme-starry-night-painting,
-.ideas-theme-luxo-disney,
-.ideas-theme-vendy-machine {
-    width: 150px;
-    height: auto;
-    margin-top: 20px;
-    position: absolute
-}
-
-.ideas-theme-starry-night-painting {
-  left: -40px;
-  width: 350px;
-  height: auto;
-  top: 20px;
-}
-
-.ideas-theme-luxo-disney {
- left: 380px;
-  width: 250px;
-  height: auto;
-  top: 0px;
-}
-
-.ideas-theme-vendy-machine {
-  left: 480px;
-  width: 280px;
-  height: auto;
-  top: 10px;
-}
-
-.theme-brick-star-wars {
+.brick-studs-star-wars .brick-stud-themes {
     background: #1E3A8A;
 }
 
-.star-wars-sign,
-.star-wars-death-star,
-.star-wars-ewok {
-    width: 150px;
-    height: auto;
-    margin-top: 40px;
-    position: absolute
-}
-
-.star-wars-sign {
- left: -20px;
-  width: 350px;
-  height: auto;
-  top: 80px;
-}
-
-.star-wars-death-star {
- left: 340px;
-  width: 380px;
-  height: auto;
-  top: 50px;
-}
-
-.star-wars-ewok {
-  left: 480px;
-  width: 280px;
-  height: auto;
-  top: 40px;
-}
-
-
-.theme-brick-harry-potter {
+.brick-studs-harry-potter .brick-stud-themes {
     background: #991B1B;
 }
 
-.harry-potter-theme-book-nook,
-.harry-potter-theme-hogwarts-castle,
-.harry-potter-theme-the-burrow {
-    width: 150px;
-    height: auto;
-    margin-top: 40px;
-    position: absolute
-}
-
-.harry-potter-theme-book-nook {
-left: -70px;
-  width: 350px;
-  height: auto;
-  top: 100px;
-}
-
-.harry-potter-theme-hogwarts-castle {
- left: 220px;
-  width: 380px;
-  height: auto;
-  top: 10px;
-}
-
-.harry-potter-theme-the-burrow {
-  left: 480px;
-  width: 280px;
-  height: auto;
-  top: -40px;
-}
-
-.theme-brick-technic {
+.brick-studs-technic .brick-stud-themes {
     background: #FF6700;
 }
 
-.technic-theme-2-fast-2-furious-nissan-skyline-gt-r-car,
-.technic-theme-bush-plane,
-.technic-theme-ford-bronco-suv {
-    width: 150px;
-    height: auto;
-    margin-top: 40px;
-    position: absolute;
-}
-
-.technic-theme-2-fast-2-furious-nissan-skyline-gt-r-car {
- left: -80px;
-  width: 350px;
-  height: auto;
-  top: 80px;
-}
-
-.technic-theme-bush-plane {
- left: 140px;
-  width: 380px;
-  height: auto;
-  top: 50px;
-}
-
-.technic-theme-ford-bronco-suv {
-  left: 480px;
-  width: 380px;
-  height: auto;
-  top: 40px;
-}
-
-.theme-brick-disney {
+.brick-studs-disney .brick-stud-themes {
     background: #3B82F6;
 }
 
-.disney-theme-beauty-and-the-beast-castle,
-.disney-theme-wall-e-and-eve,
-.disney-theme-young-simba-the-lion-king {
-    width: 150px;
-    height: auto;
-    margin-top: 40px;
-    position: absolute
-}
-
-.disney-theme-beauty-and-the-beast-castle {
- left: -20px;
-  width: 250px;
-  height: auto;
-  top: -30px;
-}
-
-.disney-theme-wall-e-and-eve {
- left: 170px;
-  width: 380px;
-  height: auto;
-  top: 50px;
-}
-
-.disney-theme-young-simba-the-lion-king {
- left: 480px;
-  width: 280px;
-  height: auto;
-  top: -30px;
-}
-
-.theme-brick-gaming {
+.brick-studs-gaming .brick-stud-themes {
     background: #10B981;
 }
 
-.gaming-theme-game-boy,
-.gaming-theme-mario-kart-mario-and-standard-kart,
-.gaming-theme-battle-bus {
-    width: 150px;
-    height: auto;
-    margin-top: 40px;
-    position: absolute
-}
-
-.gaming-theme-game-boy {
-left: -70px;
-  width: 350px;
-  height: auto;
-  top: 30px;
-}
-
-.gaming-theme-mario-kart-mario-and-standard-kart {
-left: 200px;
-  width: 380px;
-  height: auto;
-  top: 50px;
-}
-
-.gaming-theme-battle-bus {
-left: 480px;
-  width: 280px;
-  height: auto;
-  top: -40px;
-}
-
-.theme-brick-city {
+.brick-studs-city .brick-stud-themes {
     background: #FBBF24;
 }
 
-.city-theme-donut-truck,
-.city-theme-holiday-advanture-camper-van,
-.ity-theme-police-boat-chase {
-    width: 150px;
-    height: auto;
-    margin-top: 40px;
-    position: absolute
-}
-
-.city-theme-donut-truck {
- left: -120px;
-  width: 350px;
-  height: auto;
-  top: 40px;
-}
-
-.city-theme-holiday-advanture-camper-van {
- left: 440px;
-  width: 380px;
-  height: auto;
-  top: 50px;
-}
-
-.city-theme-police-boat-chase {
-  left: 580px;
-  width: 280px;
-  height: auto;
-  top: 40px;
-}
-
-.theme-brick-ninjago {
+.brick-studs-ninjago .brick-stud-themes {
     background: #DC2626;
 }
 
-.ninjago-theme-city-workshops,
-.ninjago-theme-thunderfang-dragon-of-chaos,
-.ninjago-theme-the-guardian-dragon {
-    width: 150px;
-    height: auto;
-    margin-top: 40px;
-    position: absolute
-}
-
-.ninjago-theme-city-workshops {
- left: -20px;
-  width: 280px;
-  height: auto;
-  top: -10px;
-}
-
-
-.ninjago-theme-thunderfang-dragon-of-chaos {
-left: 140px;
-  width: 380px;
-  height: auto;
-  top: 10px;
-}
-
-.ninjago-theme-the-guardian-dragon {
-  left: 480px;
-  width: 280px;
-  height: auto;
-  top: -30px;
-}
-
-.theme-brick-super-hero {
+.brick-studs-super-hero .brick-stud-themes {
     background: #2563EB;
 }
 
-.super-hero-theme-advengers-tower,
-.super-hero-theme-arkham-asylum,
-.super-hero-theme-spider-man-vs-doc-ock-subway-train-scene{
-    width: 150px;
-    height: auto;
-    margin-top: 40px;
-    position: absolute
-}
-
-.super-hero-theme-advengers-tower {
- left: -40px;
-  width: 250px;
-  height: auto;
-  top: -50px;
-}
-
-.super-hero-theme-arkham-asylum {
-left: 170px;
-  width: 380px;
-  height: auto;
-  top: 30px;
-}
-
-.super-hero-theme-spider-man-vs-doc-ock-subway-train-scene{
-  left: 500px;
-  width: 250px;
-  height: auto;
-  margin-top: -10px;
-}
-
-.theme-brick-friends {
+.brick-studs-friends .brick-stud-themes {
     background: #EC4899;
 }
 
-.friends-theme-friendship-tree-house-hangout,
-.friends-theme-pet-accessories-shop,
-.friends-theme-friendship-camper-van-adventure{
-    width: 150px;
-    height: auto;
-    margin-top: 40px;
-    position: absolute
-}
-
-.friends-theme-friendship-tree-house-hangout {
- left: -90px;
-  width: 350px;
-  height: auto;
-  top: -30px;
-}
-
-.friends-theme-pet-accessories-shop {
- left: 140px;
-  width: 380px;
-  height: auto;
-  top: 50px;
-}
-
-.friends-theme-friendship-camper-van-adventure{
-  left: 480px;
-  width: 380px;
-  height: auto;
-  top: 30px;
-}
-
-.theme-brick-duplo{
+.brick-studs-duplo .brick-stud-themes {
     background: #22C55E;
 }
 
-.duplo-theme-ice-cream-trip-with-bluey,
-.duplo-theme-number-train--learn-to-count,
-.duplo-theme-mcqueen-s-visit-to-doc-s-garage {
-    width: 150px;
-    height: auto;
-    margin-top: 40px;
-    position: absolute
-}
-
-.duplo-theme-ice-cream-trip-with-bluey{
- left: -40px;
-  width: 350px;
-  height: auto;
-  top: 20px;
-}
-
-.duplo-theme-number-train--learn-to-count {
- left: 300px;
-  width: 380px;
-  height: auto;
-  top: 50px;
-}
-
-.duplo-theme-mcqueen-s-visit-to-doc-s-garage {
-  left: 480px;
-  width: 280px;
-  height: auto;
-  top: 20px;
-}
-
+/* BRICK CONTAINERS - Clip images with overflow hidden */
 .theme-brick-icons,
 .theme-brick-ideas,
 .theme-brick-star-wars,
@@ -2058,46 +1793,75 @@ left: 170px;
     min-height: 210px;
     max-height: 210px;
     min-width: 200px;
-    overflow: hidden;
+    overflow: hidden; /* Critical! Clips absolutely positioned images */
 }
 
-.brick-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    padding: 30px 25px; /* Move padding here */
-    overflow: hidden; /* Clips images */
+.theme-brick-wrapper:hover .theme-brick-icons,
+.theme-brick-wrapper:hover .theme-brick-ideas,
+.theme-brick-wrapper:hover .theme-brick-star-wars,
+.theme-brick-wrapper:hover .theme-brick-harry-potter,
+.theme-brick-wrapper:hover .theme-brick-technic,
+.theme-brick-wrapper:hover .theme-brick-disney,
+.theme-brick-wrapper:hover .theme-brick-gaming,
+.theme-brick-wrapper:hover .theme-brick-city,
+.theme-brick-wrapper:hover .theme-brick-ninjago,
+.theme-brick-wrapper:hover .theme-brick-super-hero,
+.theme-brick-wrapper:hover .theme-brick-friends,
+.theme-brick-wrapper:hover .theme-brick-duplo {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
-.brick-studs-icons,
-.brick-studs-ideas,
-.brick-studs-star-wars,
-.brick-studs-harry-potter,
-.brick-studs-technic,
-.brick-studs-disney,
-.brick-studs-gaming,
-.brick-studs-city,
-.brick-studs-ninjago,
-.brick-studs-super-hero,
-.brick-studs-friends,
-.brick-studs-duplo {
-    position: absolute;
-    top: -25px;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-evenly;
+/* Brick background colors */
+.theme-brick-icons {
+    background: #1F2937;
 }
 
-
-.brick-stud-themes {
-    width: 90px;
-    height: 25px;
-    background: inherit;
-    border-left: 2px solid rgba(0, 0, 0, 0.15);
-    border-right: 2px solid rgba(0, 0, 0, 0.15);
+.theme-brick-ideas {
+    background: #8B3FBF;
 }
 
+.theme-brick-star-wars {
+    background: #1E3A8A;
+}
+
+.theme-brick-harry-potter {
+    background: #991B1B;
+}
+
+.theme-brick-technic {
+    background: #FF6700;
+}
+
+.theme-brick-disney {
+    background: #3B82F6;
+}
+
+.theme-brick-gaming {
+    background: #10B981;
+}
+
+.theme-brick-city {
+    background: #FBBF24;
+}
+
+.theme-brick-ninjago {
+    background: #DC2626;
+}
+
+.theme-brick-super-hero {
+    background: #2563EB;
+}
+
+.theme-brick-friends {
+    background: #EC4899;
+}
+
+.theme-brick-duplo {
+    background: #22C55E;
+}
+
+/* Headings */
 .theme-brick-icons h4,
 .theme-brick-ideas h4,
 .theme-brick-star-wars h4,
@@ -2115,85 +1879,357 @@ left: 170px;
     font-size: 70px;
     font-weight: 700;
     margin: 0;
+    position: relative;
+    z-index: 2;
 }
 
-.theme-brick-icons:hover,
-.theme-brick-ideas:hover,
-.theme-brick-star-wars:hover,
-.theme-brick-harry-potter:hover,
-.theme-brick-technic:hover,
-.theme-brick-disney:hover,
-.theme-brick-gaming:hover,
-.theme-brick-city:hover,
-.theme-brick-ninjago:hover,
-.theme-brick-super-hero:hover,
-.theme-brick-friends:hover,
-.theme-brick-duplo:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+/* ABSOLUTELY POSITIONED IMAGES */
+
+/* Icons brick images */
+.icons-theme-turdor-corner,
+.icons-theme-krusty-burger,
+.icons-theme-fish-tank {
+    width: 150px;
+    height: auto;
+    position: absolute;
 }
 
-.brick-studs-icons .brick-stud-themes {
-    background: #1F2937;
+.icons-theme-turdor-corner {
+    left: -80px;
+    width: 350px;
+    top: -10px;
 }
 
-
-.brick-studs-ideas .brick-stud-themes {
-    background: #8B3FBF;
+.icons-theme-krusty-burger {
+    left: 180px;
+    width: 350px;
+    top: 0px;
 }
 
-
-.brick-studs-star-wars .brick-stud-themes {
-    background: #1E3A8A;
+.icons-theme-fish-tank {
+    left: 480px;
+    width: 350px;
+    top: 60px;
 }
 
-
-.brick-studs-harry-potter .brick-stud-themes {
-    background: #991B1B;
+/* Ideas brick images */
+.ideas-theme-starry-night-painting,
+.ideas-theme-luxo-disney,
+.ideas-theme-vendy-machine {
+    width: 150px;
+    height: auto;
+    position: absolute;
 }
 
-
-.brick-studs-technic .brick-stud-themes {
-    background: #FF6700;
+.ideas-theme-starry-night-painting {
+    left: -40px;
+    width: 350px;
+    top: 20px;
 }
 
-
-.brick-studs-disney .brick-stud-themes  {
-    background: #3B82F6;
+.ideas-theme-luxo-disney {
+    left: 380px;
+    width: 250px;
+    top: 0px;
 }
 
-
-.brick-studs-gaming .brick-stud-themes {
-    background: #10B981;
+.ideas-theme-vendy-machine {
+    left: 480px;
+    width: 280px;
+    top: 10px;
 }
 
-.brick-studs-city .brick-stud-themes {
-    background: #FBBF24;
+/* Star Wars brick images */
+.star-wars-sign,
+.star-wars-death-star,
+.star-wars-ewok {
+    width: 150px;
+    height: auto;
+    position: absolute;
 }
 
-
-.brick-studs-ninjago .brick-stud-themes {
-    background: #DC2626;
+.star-wars-sign {
+    left: -20px;
+    width: 350px;
+    top: 80px;
 }
 
-
-.brick-studs-super-hero .brick-stud-themes {
-    background: #2563EB;
+.star-wars-death-star {
+    left: 340px;
+    width: 380px;
+    top: 50px;
 }
 
-
-.brick-studs-friends .brick-stud-themes {
-    background: #EC4899;
+.star-wars-ewok {
+    left: 480px;
+    width: 280px;
+    top: 40px;
 }
 
-.brick-studs-duplo .brick-stud-themes {
-    background: #22C55E;
+/* Harry Potter brick images */
+.harry-potter-theme-book-nook,
+.harry-potter-theme-hogwarts-castle,
+.harry-potter-theme-the-burrow {
+    width: 150px;
+    height: auto;
+    position: absolute;
 }
 
+.harry-potter-theme-book-nook {
+    left: -70px;
+    width: 350px;
+    top: 100px;
+}
+
+.harry-potter-theme-hogwarts-castle {
+    left: 220px;
+    width: 380px;
+    top: 10px;
+}
+
+.harry-potter-theme-the-burrow {
+    left: 480px;
+    width: 280px;
+    top: -10px;
+}
+
+/* Technic brick images */
+.technic-theme-2-fast-2-furious-nissan-skyline-gt-r-car,
+.technic-theme-bush-plane,
+.technic-theme-ford-bronco-suv {
+    width: 150px;
+    height: auto;
+    position: absolute;
+}
+
+.technic-theme-2-fast-2-furious-nissan-skyline-gt-r-car {
+    left: -80px;
+    width: 350px;
+    top: 80px;
+}
+
+.technic-theme-bush-plane {
+    left: 140px;
+    width: 380px;
+    top: 50px;
+}
+
+.technic-theme-ford-bronco-suv {
+    left: 480px;
+    width: 380px;
+    top: 40px;
+}
+
+/* Disney brick images */
+.disney-theme-beauty-and-the-beast-castle,
+.disney-theme-wall-e-and-eve,
+.disney-theme-young-simba-the-lion-king {
+    width: 150px;
+    height: auto;
+    position: absolute;
+}
+
+.disney-theme-beauty-and-the-beast-castle {
+    left: -20px;
+    width: 250px;
+    top: -30px;
+}
+
+.disney-theme-wall-e-and-eve {
+    left: 170px;
+    width: 380px;
+    top: 50px;
+}
+
+.disney-theme-young-simba-the-lion-king {
+    left: 480px;
+    width: 280px;
+    top: 20px;
+}
+
+/* Gaming brick images */
+.gaming-theme-game-boy,
+.gaming-theme-mario-kart-mario-and-standard-kart,
+.gaming-theme-battle-bus {
+    width: 150px;
+    height: auto;
+    position: absolute;
+}
+
+.gaming-theme-game-boy {
+    left: -70px;
+    width: 350px;
+    top: 30px;
+}
+
+.gaming-theme-mario-kart-mario-and-standard-kart {
+    left: 200px;
+    width: 380px;
+    top: 50px;
+}
+
+.gaming-theme-battle-bus {
+    left: 480px;
+    width: 280px;
+    top: -40px;
+}
+
+/* City brick images */
+.city-theme-donut-truck,
+.city-theme-holiday-advanture-camper-van,
+.city-theme-police-boat-chase {
+    width: 150px;
+    height: auto;
+    position: absolute;
+}
+
+.city-theme-donut-truck {
+    left: -120px;
+    width: 350px;
+    top: 40px;
+}
+
+.city-theme-holiday-advanture-camper-van {
+    left: 440px;
+    width: 380px;
+    top: 50px;
+}
+
+.city-theme-police-boat-chase {
+    left: 180px;
+    width: 280px;
+    top: 120px;
+}
+
+/* Ninjago brick images */
+.ninjago-theme-city-workshops,
+.ninjago-theme-thunderfang-dragon-of-chaos,
+.ninjago-theme-the-guardian-dragon {
+    width: 150px;
+    height: auto;
+    position: absolute;
+}
+
+.ninjago-theme-city-workshops {
+    left: -20px;
+    width: 280px;
+    top: 40px;
+}
+
+.ninjago-theme-thunderfang-dragon-of-chaos {
+    left: 140px;
+    width: 380px;
+    top: 10px;
+}
+
+.ninjago-theme-the-guardian-dragon {
+    left: 480px;
+    width: 280px;
+    top: 40px;
+}
+
+/* Super Hero brick images */
+.super-hero-theme-advengers-tower,
+.super-hero-theme-arkham-asylum,
+.super-hero-theme-spider-man-vs-doc-ock-subway-train-scene {
+    width: 150px;
+    height: auto;
+    position: absolute;
+}
+
+.super-hero-theme-advengers-tower {
+    left: -40px;
+    width: 250px;
+    top: -20px;
+}
+
+.super-hero-theme-arkham-asylum {
+    left: 170px;
+    width: 380px;
+    top: 30px;
+}
+
+.super-hero-theme-spider-man-vs-doc-ock-subway-train-scene {
+    left: 500px;
+    width: 250px;
+    top: 120px;
+}
+
+/* Friends brick images */
+.friends-theme-friendship-tree-house-hangout,
+.friends-theme-pet-accessories-shop,
+.friends-theme-friendship-camper-van-adventure {
+    width: 150px;
+    height: auto;
+    position: absolute;
+}
+
+.friends-theme-friendship-tree-house-hangout {
+    left: -90px;
+    width: 350px;
+    top: 40px;
+}
+
+.friends-theme-pet-accessories-shop {
+    left: 140px;
+    width: 380px;
+    top: 50px;
+}
+
+.friends-theme-friendship-camper-van-adventure {
+    left: 480px;
+    width: 380px;
+    top: 70px;
+}
+
+/* Duplo brick images */
+.duplo-theme-ice-cream-trip-with-bluey,
+.duplo-theme-number-train--learn-to-count,
+.duplo-theme-mcqueen-s-visit-to-doc-s-garage {
+    width: 150px;
+    height: auto;
+    position: absolute;
+}
+
+.duplo-theme-ice-cream-trip-with-bluey {
+    left: -40px;
+    width: 350px;
+    top: 40px;
+}
+
+.duplo-theme-number-train--learn-to-count {
+    left: 300px;
+    width: 380px;
+    top: 80px;
+}
+
+.duplo-theme-mcqueen-s-visit-to-doc-s-garage {
+    left: 480px;
+    width: 280px;
+    top: 40px;
+}
 
 [class^="theme-brick-"] img {
     opacity: 0; /* Hidden by default */
     transition: opacity 0.3s ease; /* Smooth fade */
+}
+
+
+/* Studs move with brick on hover */
+.theme-brick-wrapper:hover .brick-studs-icons,
+.theme-brick-wrapper:hover .brick-studs-ideas,
+.theme-brick-wrapper:hover .brick-studs-star-wars,
+.theme-brick-wrapper:hover .brick-studs-harry-potter,
+.theme-brick-wrapper:hover .brick-studs-technic,
+.theme-brick-wrapper:hover .brick-studs-disney,
+.theme-brick-wrapper:hover .brick-studs-gaming,
+.theme-brick-wrapper:hover .brick-studs-city,
+.theme-brick-wrapper:hover .brick-studs-ninjago,
+.theme-brick-wrapper:hover .brick-studs-super-hero,
+.theme-brick-wrapper:hover .brick-studs-friends,
+.theme-brick-wrapper:hover .brick-studs-duplo {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
 }
 
 .theme-brick-icons:hover img,
@@ -2228,5 +2264,12 @@ left: 170px;
 
 
 
-<!-- End Theme Shopping -->
+
+
+
+
+
+
+
+
 
