@@ -2,16 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Beau+Rivage&display=swap');
 
 :root {
-    /* Colors - Replace these with your Figma palette */
+    /* Colors */
     --color-background: #F4F7F5;
     --color-text: #222823;
     --color-accent: #3498db;
     --color-secondary: #95a5a6;
     --color-error: #e74c3c;
     
-    /* Typography - Replace with your Google Fonts */
+    /* Typography */
     --font-heading: 'Fredoka', sans-serif;
     --font-body: 'Inter', sans-serif;
+    --font-script: 'Beau Rivage', cursive;
 }
 
 * {
