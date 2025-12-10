@@ -11,13 +11,13 @@ Instructor: Travis Masingale
 This repository documents my journey through DESN368, where I learned to build for the web with HTML and CSS—understanding how the web actually works at the source level.
 
 - **[View Live Portfolio] https://mbushyeager05.github.io/DESN368-code-design-workspace**
-- **[View Learning Log](https://[your-username].github.io/[your-repo-name]/learning-log.html)** — Weekly progress & exercises
+- **[View Learning Log](https://mbushyeager05.github.io/DESN368-code-design-workspace/learning-log.html)** — Weekly progress & exercises
 
 ---
 
 ## Design Direction
 
-For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
+For my portfolio, I pursued a differnt way of exploring with CSS and Styles. I wanted it to have a clean, clear, bold, colorful, and a modern aesthetic. These are things that I wanted my Portfolio look and feel like when finsihed designing and coding it.
 
 | Element | Choice |
 |---------|--------|
@@ -65,8 +65,8 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 ### Assets
 - Lego.com
 - Wikipidea.com
--Claude.Ai
--Open.Ai
+- Claude.Ai
+- Open.Ai
 
 ### Tutorials & Resources
 - My notes are where my resources.
@@ -78,7 +78,7 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
 ## Reflection
 
-[→ Read Full Reflection on Portfolio Site](https://[your-username].github.io/[your-repo-name]/reflection.html)
+[→ Read Full Reflection on Portfolio Site](https://mbushyeager05.github.io/DESN368-code-design-workspace/reflection.html)
 
 ---
 
