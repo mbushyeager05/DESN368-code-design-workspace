@@ -21,13 +21,13 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
 | Element | Choice |
 |---------|--------|
-| Header Font | [Font Name] |
-| Body Font | [Font Name] |
-| Primary Color | `#000000` |
-| Accent Color | `#000000` |
-| Background | `#000000` |
+| Header Font | Fredoka |
+| Body Font | Inter|
+| Primary Color | #222823 |
+| Accent Color | #3498DB |
+| Background | #F4F7F5 |
 
-**[View Figma File](https://www.figma.com/file/[your-figma-link])**
+**[View Figma File] https://www.figma.com/design/9lAmkjas7p5fMfrdo0anei/desn368-moods-vibe-Bushyeager-f25?node-id=0-1&t=P8Hx8w7QSs5fOjN4-1**
 
 ---
 
@@ -35,10 +35,10 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
 | Project | Description | Live Site | Process |
 |---------|-------------|-----------|---------|
-| The Recipe | [1-sentence description] | [View →](./week-XX/recipe/) | [Figma](link) |
-| Tribute Site | [1-sentence description] | [View →](./week-XX/tribute/) | [Figma](link) |
-| Field Guide | [1-sentence description] | [View →](./week-XX/field-guide/) | [Figma](link) |
-| Product Landing Page | [1-sentence description] | [View →](./week-XX/landing-page/) | [Figma](link) |
+| The Recipe | A basic HTML layout and basic CSS styles for a reipe of Zuchinni Bread. | [View →](./week-XX/recipe/) | [Figma] No link |
+| Tribute Site | A tribue site suing HTMl and CSS. Plus, also Flexbox, for a tribute page/site for Tim Cook.| [View →](./week-XX/tribute/) | [Figma] https://www.figma.com/design/WJpAHC5Z9uSkvoC11hd50b/Tibute-Site-Tim-Cook--MB?node-id=0-1&p=f&t=mNBkRBwhf2dXH81S-0 |
+| Field Guide | A Field Guide using HTML and CSS. That goes over he game Cities Skylines. Using a two column layout and a side navigation bar. Also includes a reflection page and a link to my portfolio. | [View →](./week-XX/field-guide/) | [Figma] https://www.figma.com/design/ntNWFMIojTq71yArpCV6ZX/Interactive-Field-Guide-MB?node-id=0-1&t=vaWq5oq5xlSSyuXR-1 |
+| Product Landing Page | A product Landing Page for Lego using HTMl and CSS to create a whole new lok for the Lego Prodct Lego Page. Used Grid, Flexbox and CSS animations. Plus card grids for the Lego Landing Product Page. | [View →](./week-XX/landing-page/) | [Figma] https://www.figma.com/design/wwbkc8W06HrM4rDsNr7yWn/ Product-Landing-Page-Bushyeager-Michael?node-id=0-1&t=D0EwnL72iuqhpcKg-1|
 
 ---
 
@@ -63,14 +63,16 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 ## Credits & Citations
 
 ### Assets
-- [List any images, icons, or assets you didn't create]
+- Lego.com
+- Wikipidea.com
+-Claude.Ai
+-Open.Ai
 
 ### Tutorials & Resources
-- [Any tutorials or Stack Overflow threads that helped]
+- My notes are where my resources.
 
 ### AI Assistance
-- [If used: "Used Claude for debugging CSS grid in Week 6"]
-- [If none: "No AI assistance used"]
+- Used Ai fror anything that I was stuck on or needed help with.
 
 ---
 
@@ -80,4 +82,4 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
 ---
 
-<sub>© 2025 [Your Name]. Built for DESN368 at Eastern Washington University.</sub>
+<sub>© 2025 Michael Bushyeager. Built for DESN368 at Eastern Washington University.</sub>
